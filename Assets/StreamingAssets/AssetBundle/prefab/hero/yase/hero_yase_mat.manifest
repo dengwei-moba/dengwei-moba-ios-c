@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 2975588802
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dca6e35a8acab9c2e6a185eca1f3a90c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d1ae6e26fb0b4d11fccd18da598542fa
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Hero/yase/hero_yase.mat
+Dependencies:
+- G:/sj/youyouzai-moba-ios/Assets/StreamingAssets/AssetBundle/prefab/hero/yase/hero_yase_tga

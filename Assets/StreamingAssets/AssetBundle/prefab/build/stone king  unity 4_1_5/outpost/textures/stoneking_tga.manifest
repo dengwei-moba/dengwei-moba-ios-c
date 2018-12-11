@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1838680817
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 70a1c09d799c5931a31b0b340717b36e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Build/Stone King  Unity 4.1.5/Outpost/Textures/StoneKing.tga
+Dependencies: []

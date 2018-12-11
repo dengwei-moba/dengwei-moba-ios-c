@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3717554226
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e40c691f4a3a4122e5b1aa0486cfba64
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Effect/Wind/wind.png
+Dependencies: []

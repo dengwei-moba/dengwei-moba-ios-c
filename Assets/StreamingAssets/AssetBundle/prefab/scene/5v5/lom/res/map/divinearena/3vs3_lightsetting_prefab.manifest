@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 2242706731
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c5c4f3a49eabfd6246f6fb1824a8dd81
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 15dd52bb559dfed76f8c59dfe622c1b7
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Scene/5V5/LOM/Res/Map/DivineArena/3vs3_LightSetting.prefab
+Dependencies: []

@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 143119573
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b0d114aac99c0221043c04135ec8d548
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d1ae6e26fb0b4d11fccd18da598542fa
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Scene/5V5/LOM/Res/Map/DivineArena/Materials/UpoSpace_shine.mat
+Dependencies:
+- G:/sj/youyouzai-moba-ios/Assets/StreamingAssets/AssetBundle/prefab/scene/5v5/lom/res/map/divinearena/textures/upospace_shine_png

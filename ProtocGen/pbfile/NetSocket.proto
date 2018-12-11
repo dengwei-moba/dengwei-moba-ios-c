@@ -1,0 +1,67 @@
+syntax = "proto3";
+package Google.Protobuf;
+
+enum Kcp_MsgID
+{
+	Kcp_MsgID_NONE				= 0;
+	CONNECTED					= 1;
+	RE_CONNECTED				= 9;			//瞬连成功
+	CONNECTED_FAIL				= 2;
+	DIS_CONNECTED				= 3;
+
+	PING_INDEX					= 4;			//探知Ping值
+
+	FS_INFO_ONE					= 5;			//一帧信息
+	FS_INFO_S					= 6;			//多帧信息结合	
+	NOT_ACK_INDEX				= 7;			//非ACK序号请求
+	SYN_ACK						= 8;			//同步ACK状态(和超时重查一样,都是客户端驱动)
+}
+
+enum Kcp_Net_Type
+{
+	Kcp_Net_Type_NONE				= 0;
+	DSC_NORMAL						= 1;			//DisConnect:正常断线
+	DSC_ERR_OUT_MAX_FS_NUM			= 2;			//DisConnect:数据传输超时断线(对方最新的发送序号超出正在接收处理的包序号N个)
+	DSC_ERR_ADDR					= 3;			//DisConnect:身份未验证,错误IP地址
+}
+
+message Kcp_None
+{
+}
+
+//CONNECTED,RE_CONNECTED
+message Kcp_Connect
+{
+	int32 quickconnect = 1;			//快速重连/身份重新认证/更新IP地址时候使用
+}
+
+//DIS_CONNECTED
+message Kcp_DisConnect
+{
+	int32 type = 1;					//断线类型
+}
+
+//PING_INDEX
+message Kcp_Ping
+{
+	int32 index		= 1;
+}
+
+message Kcp_OneFsPackData
+{
+	int32 index		= 1;			//本帧序号
+	bytes fsdata 		= 2;			//序列化数据
+}
+
+message Kcp_FsPackDatas
+{
+	repeated Kcp_OneFsPackData fspackdata = 1;
+	int32 ackindex		= 2;			//我方最新的已ACK序号确认
+	int32 sendindex	= 3;			//我方最新的发送序号
+}
+
+message Kcp_NotAckIndex
+{
+	int32 startindex	= 1;			//请求重发的第一帧的序号
+	int32 endindex		= 2;			//请求重发的最后一帧的序号
+}

@@ -1,0 +1,97 @@
+syntax = "proto3";
+package Google.Protobuf;
+
+enum Protocol
+{
+	Protocol_GameMessage = 0;
+	Protocol_ReqLogin = 1;
+	Protocol_AckLogin = 2;
+	Protocol_ReqMatch = 3;
+	Protocol_PlayerInfo = 4;
+	Protocol_NtfMatch = 5;
+	Protocol_ReqSelectHero = 6;
+	Protocol_PlayerHeroInfo = 7;
+	Protocol_NtfSelectHeroFinish = 8;
+	Protocol_ReqGameStart = 9;
+	Protocol_ReqStartMove = 10;
+	Protocol_ReqChangeDir = 11;
+	Protocol_ReqEndMove = 12;
+}
+
+//Tcp相关（即大厅逻辑相关）
+message GameMessage
+{
+	Protocol Type = 1;
+	bytes Data = 2;
+}
+message ReqLogin
+{
+	string Account = 1;
+	string Password = 2;
+}
+message AckLogin
+{
+	uint32 Success = 1;
+	uint32 Userid = 2;
+	string Nickname = 3;
+}
+//请求匹配
+message ReqMatch
+{
+	uint32 Userid = 1;
+	uint32 FightType = 2;
+}
+message PlayerInfo
+{
+	uint32 Userid = 1;
+	string Nickname = 2;
+}
+//匹配返回
+message NtfMatch
+{
+	repeated PlayerInfo PlayerinfoList = 1;
+	uint32 Roomid = 2;
+}
+//选择英雄
+message ReqSelectHero
+{
+	uint32 Userid = 1;
+	uint32 Roomid = 2;
+	uint32 Heroid = 3;
+}
+message PlayerHeroInfo
+{
+	uint32 Userid = 1;
+	uint32 Heroid = 2;
+}
+//所有的玩家已经选择英雄完毕
+message NtfSelectHeroFinish
+{
+	repeated PlayerHeroInfo SelectHerolist = 1;
+}
+
+
+
+//Udp相关（即战斗逻辑相关）
+//游戏开始：进入战斗场景后，通知服务器可以开始，服务器收到所有玩家游戏开始协议的时候，开始发送逻辑帧开始战斗
+message ReqGameStart
+{
+	uint32 Userid = 1;
+	uint32 Roomid = 2;
+}
+message ReqStartMove
+{
+	uint32 Userid = 1;
+	uint32 Roomid = 2;
+}
+message ReqChangeDir
+{
+	uint32 Userid = 1;
+	uint32 Roomid = 2;
+	int32 Angle = 3;
+}
+message ReqEndMove
+{
+	uint32 Userid = 1;
+	uint32 Roomid = 2;
+}

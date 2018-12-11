@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 4290237100
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 640887745fb48ea147163949e70970f7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ee96b98c7b8e9404fc27edfcf52e7cce
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Effect/Wind/wind.prefab
+Dependencies:
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/prefab/effect/fire/new material_mat

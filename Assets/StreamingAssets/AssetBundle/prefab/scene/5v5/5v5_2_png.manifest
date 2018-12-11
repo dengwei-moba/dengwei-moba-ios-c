@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3794456243
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6c8b1847835ce6901e382621eccbe2d6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Scene/5V5/5v5_2.png
+Dependencies: []

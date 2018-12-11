@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1877040352
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a44a7078194652fe69e1fe6dd54dc727
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Scene/5V5/LOM/Res/Map/DivineArena/Textures/UpoSpace_shine.png
+Dependencies: []

@@ -1,0 +1,126 @@
+syntax = "proto3";
+package Google.Protobuf;
+
+
+//流程描述，启动玩家在房间中，等待所有玩家都准备后，服务器推送资源加载消息
+//资源加载完成客户端发送消息，服务器等待所有玩家资源加载完成开始帧同步信息
+
+//C2S_LOGIN_HELLO 登陆请求
+message PB_C2SLoginHello
+{
+	uint32 fightroomid =1;
+	string hellokey = 2;
+}
+
+message PB_PlayerInfo
+{
+	uint64 pid = 1;		//游戏服ID
+	int32 playeridx = 2;	//战斗房间服临时分配ID
+	string name = 3;
+}
+
+//C2S_FIGHT_LOADING_END 客户端资源加载完成
+message PB_C2SFightLoadingEnd
+{	
+}
+
+//S2C_FIGHT_START 副本战斗开始
+message PB_S2CFightStart
+{
+}
+
+//玩家中途强制退出战斗
+message PB_C2SFightSOut
+{
+}
+
+enum LoadingAgainType
+{
+	LoadingAgainType_NONE		= 0;
+	C2S_LOADING_AGAIN_START		= 1;	//客户端战斗中资源加载开始
+	S2C_LOADING_AGAIN_START		= 2;	//客户端战斗中资源加载开始
+	C2S_LOADING_AGAIN_END		= 3;	//客户端战斗中资源加载完成
+	S2C_LOADING_AGAIN_END		= 4;	//客户端战斗中资源加载完成
+}
+
+message PB_LoadingAgain
+{
+	uint32 type		= 1;	//LoadingAgainType
+}
+
+//客户端结束战斗逻辑
+message PB_C2SFightSEnd
+{
+	bool iswin = 1;			//战斗胜利/失败结果
+	uint32 resultflag = 2;		//战斗逻辑结果特征值
+}
+
+//战斗失败/胜利后退出战斗,及结算信息
+message PB_S2CFightSEnd
+{
+	uint32 exp = 1;			//获得的经验值
+}
+
+
+enum InputType
+{
+	InputType_NONE				= 0;
+	InputType_MOVE_START		= 1;	//
+	InputType_MOVE_ANGLE		= 2;	//
+	InputType_MOVE_END			= 3;	//
+	InputType_KEY_DOWN			= 4;	//
+	InputType_KEY_UP			= 5;	//
+	InputType_KEY_LONG_START	= 6;	//
+	InputType_KEY_LONG_END		= 7;	//
+	InputType_KEY_ANGLE			= 8;	//
+	InputType_CLICK_XY			= 9;	//
+}
+//玩家如果有输入发送C2SClientInput给服务器,无输入需要服务器在帧的时间片末尾自动填充空帧；
+//服务器按固定时间频率发送S2CGameLogicFrame到客户端；
+//为了区分和快速查找玩家信息，在比赛开始之前确定针对本局比赛玩家的index
+//后期扩展：PlayerFrame中的信息放入1个unit32，前16位存玩家index,后15位存输入
+
+message PB_ClientInput
+{
+	InputType InputType		= 1;	//
+	int32 Angle_X			= 2;	//InputType_MOVE_ANGLE时
+	int32 Angle_Y			= 3;	//InputType_MOVE_ANGLE时
+	int32 Key				= 4;	//
+	int32 Pos_X				= 5;	//
+	int32 Pos_Y				= 6;	//
+}
+	
+//C2S_INPUT_INFO 客户端输入
+message PB_C2SClientInput
+{
+	repeated PB_ClientInput inputs = 1;	//输入
+}
+
+message PB_PlayerFrame
+{
+	uint32 index			= 1;	//玩家INDEX
+	PB_ClientInput input	= 2;	//玩家输入
+}
+
+//S2C_FRAME_INFO 一帧数据
+message PB_FrameInfo
+{
+	uint32 frame_index 	= 1; 		//帧编号
+	repeated PB_PlayerFrame inputs 	= 2; 		//帧信息
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

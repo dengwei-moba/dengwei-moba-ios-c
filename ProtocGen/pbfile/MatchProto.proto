@@ -1,0 +1,110 @@
+syntax	= "proto3";
+package Google.Protobuf;
+
+//==================新匹配系统消息协议=========================
+enum MatchMsgID
+{
+	//匹配系统消息协议
+	C2GS2FMS_MATCH_ADD			= 0;			//请求加入匹配队列
+	FMS2GS2C_MATCH_ADD			= 1;			//请求加入匹配队列结果
+	C2GS2FMS_MATCH_DEL			= 2;			//请求取消匹配队列
+	FMS2GS2C_MATCH_DEL			= 3;			//请求取消匹配队列结果
+	FMS2GS2C_MATCH_START		= 4;			//推送匹配成功,及相关信息(多次推送当作刷新信息)
+	C2GS2FMS_MATCH_READY		= 5;			//玩家点击开始战斗准备 c-g
+	FMS2GS2C_MATCH_FAIL			= 6;			//推送战斗准备失败(重新进入匹配队列)
+	FMS2GS2C_MATCH_FIGHT		= 7;			//推送战斗准备成功,开始战斗,及相关信息   g-c
+}
+
+//请求加入匹配队列
+message PB_MatchTeamAdd_C2GS2FMS
+{
+	repeated uint64 pidlist = 1;	//自己的ID+队友的ID
+	uint32 guanqia = 2;	//关卡ID
+	repeated PB_MatchTeamMemberInfo playersinfo = 3;	//自己+队友的详细信息(GS2FMS时使用)
+}
+
+//一个匹配玩家信息
+message PB_MatchTeamMemberInfo
+{
+	uint64 pid =1;
+	uint32 fromserverid = 2; //来自的服务器ID
+	uint32 icon =  3; //头像
+	string name = 4;
+	bool ready = 5;	//战斗准备时候使用的数据:是否准备
+}
+
+//请求加入匹配队列结果
+message PB_MatchTeamAdd_FMS2GS2C
+{
+	repeated uint64 pidlist = 1;	//自己的ID+队友的ID
+	uint32 guanqia = 2;	//关卡ID
+	bool ret = 3;			//是否加入匹配成功
+	uint32 lasttime = 4;	//加入匹配成功后预计匹配成功时间(秒)
+	string error = 5;		//加入匹配失败的原因
+}
+
+//请求取消匹配队列
+message PB_MatchTeamDel_C2GS2FMS
+{
+	uint32 guanqia = 1;	//关卡ID
+}
+
+//请求取消匹配队列结果
+message PB_MatchTeamDel_FMS2GS2C
+{
+	repeated uint64 pidlist = 1;	//自己的ID+队友的ID
+	uint32 guanqia = 2;	//关卡ID
+	bool ret = 3;			//是否取消匹配队列成功
+	string error = 4;		//取消匹配队列失败的原因
+}
+
+//玩家点击开始战斗准备
+message PB_MatchTeamReady_C2GS2FMS
+{
+	uint32 guanqia = 1;	//关卡ID
+}
+
+//推送匹配成功,及相关信息(多次推送当作刷新信息)
+message PB_MatchTeamReady_FMS2GS2C
+{
+	repeated uint64 pidlist = 1;	//所有人的ID
+	uint32 guanqia = 2;	//关卡ID
+	uint32 teamid = 3;	//队伍ID
+	uint32 lasttime = 4;	//匹配成功后准备剩余倒计时时间(秒)
+	repeated PB_MatchTeamMemberInfo playersinfo = 5;	//自己+队友的详细信息(GS2FMS时使用)
+	bool refresh = 6;			//是否是刷新
+}
+
+//推送战斗准备失败(重新进入匹配队列)
+message PB_MatchTeamFail_FMS2GS2C
+{
+	repeated uint64 pidlist = 1;	//所有人的ID
+	uint32 guanqia = 2;	//关卡ID
+	uint32 teamid = 3;		//队伍ID
+	repeated uint64 notmatchpidlist =4;	//所有不会再次进入匹配队列的玩家ID
+}
+
+//推送战斗准备成功,开始战斗,及相关信息
+message PB_MatchTeamFight_FMS2GS2C
+{
+	repeated uint64 pidlist = 1;	//所有人的ID
+	uint32 guanqia = 2;	//关卡ID
+	uint32 teamid = 3;		//队伍ID
+	uint32 fightroomid = 4;//战斗房间ID
+	uint32 frs2cport = 5;	//战斗房间post
+	string frs2chost = 6;	//战斗房间host
+	repeated PB_FightPlayerInfo playersdata = 7;
+	int32 seed = 8;
+	int32 fps = 9;
+}
+
+//一个战斗玩家信息
+message PB_FightPlayerInfo
+{
+	uint64 pid =1;			//游戏服ID
+	uint32 playeridx = 2;	//战斗房间服临时分配ID
+	string hellokey = 3;	//认证合法性的密钥
+	string name = 4;
+	int32 ChooseHero = 5;	//本局选择的英雄
+}
+

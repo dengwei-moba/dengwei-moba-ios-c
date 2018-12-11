@@ -1,0 +1,45 @@
+ManifestFileVersion: 0
+CRC: 3434948151
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: df9d0fd9681e6938ee41594387137a81
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e88f0a012bd494f98a53cf009046c637
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 92
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 48132421a4a4da94d81ea610a04edc6e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d8561a4124465f743903b76d8cf232a9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df3e4ecc2c78eaa409dad488c230d65d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c4c7bd8f1459c9546b38fea6d5368cd9, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 124
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Hero/houyi/houyi.prefab
+Dependencies:
+- G:/sj/youyouzai-moba-ios/Assets/StreamingAssets/AssetBundle/prefab/hero/houyi/hero_houyi_mat

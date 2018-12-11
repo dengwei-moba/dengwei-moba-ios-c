@@ -1,0 +1,45 @@
+ManifestFileVersion: 0
+CRC: 2505486067
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 868f5b118ad293a1c9e83f5fe8a23a5a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 63d45ed0f464c80bc0603864f94022af
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 92
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: d8561a4124465f743903b76d8cf232a9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bdc4f3d8535516340bc455b3ce0fc4c0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df3e4ecc2c78eaa409dad488c230d65d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c4c7bd8f1459c9546b38fea6d5368cd9, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 124
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Hero/yase/yase.prefab
+Dependencies:
+- G:/sj/youyouzai-moba-ios/Assets/StreamingAssets/AssetBundle/prefab/hero/yase/hero_yase_mat

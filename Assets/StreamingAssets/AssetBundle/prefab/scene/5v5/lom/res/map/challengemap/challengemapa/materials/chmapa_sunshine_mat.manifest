@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 60283769
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 52b6c586040cf79e72f4c095782b5d07
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 60a7cae25bfd71c49bd2c87b5187f6b5
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Scene/5V5/LOM/Res/Map/ChallengeMap/ChallengeMapA/Materials/ChMapA_Sunshine.mat
+Dependencies: []

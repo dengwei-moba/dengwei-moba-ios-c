@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 772619283
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 66485b4a10e383235bed881ac865566d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Build/Stone King  Unity 4.1.5/Outpost/Models/floor.fbm/floor.png
+Dependencies: []

@@ -1,0 +1,59 @@
+syntax	= "proto3";
+package Google.Protobuf;
+
+//请求创建队伍
+message PB_GamerCreatTeam_C2S   
+{
+	uint64 gid = 1;             
+	uint32 targetid = 2;        //目标id
+	uint32 type = 3;           //创建队伍的类型，几人
+}
+message PB_GamerCreatTeam_S2C
+{
+	uint64 gid = 1;
+	uint32 team_id = 2;         //队伍的id
+}
+//请求加入队伍
+message PB_GamerJoinTeam_C2S
+{
+	uint64 gid = 1;
+	uint32 team_id = 2;
+}
+//离开队伍
+message PB_GamerLeave_C2S
+{
+	uint64 gid =1;
+	uint32 team_id=2;
+}
+//队伍类型
+enum TeamType
+{
+	TeamType_NONE				= 0;
+	Team_One = 1;
+	Team_Three = 2;
+	Team_Five = 3;
+}
+//队伍成员信息
+message PB_TeamMemberInfo
+{
+	uint64 gid =1;
+	uint32 icon =  2; //头像
+	string name = 3;
+}
+//频道信息
+message PB_ChannelChat
+{
+	uint64 gid = 1;
+	uint32 channel_id = 2;         //频道id
+	string sText = 3 ;           //文本
+	uint64 time = 4;           //发送时间
+}
+//处理玩家的入队申请
+message PB_TeamApplyHandle_C2S
+{
+	uint64 gid = 1;
+	uint32 team = 2;
+	repeated uint64 applicant = 3;   //申请者ID
+	repeated uint32 handle = 4;        //1:同意，2拒绝
+}
+

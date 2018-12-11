@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 1561436086
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: eb3cc27cf645dd33bab5bfc2fac3aa3f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d1ae6e26fb0b4d11fccd18da598542fa
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Build/Materials/jing_ling_fang_yu_1.mat
+Dependencies:
+- G:/sj/youyouzai-moba-ios/Assets/StreamingAssets/AssetBundle/prefab/build/jing_ling_fang_yu_001_tga

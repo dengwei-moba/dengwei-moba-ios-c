@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 2225096731
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1cbc00a5a264e3302b6fb1f3444a9484
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 60a7cae25bfd71c49bd2c87b5187f6b5
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Build/Materials/wang_ling_zhu_jian_zhu_001.mat
+Dependencies: []

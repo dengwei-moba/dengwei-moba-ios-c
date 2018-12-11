@@ -1,0 +1,145 @@
+syntax = "proto3";
+
+package Google.Protobuf;
+//============以上不再客户端导表生成==============
+enum AccountMsgID
+{
+	AccountMsgID_NONE			=0;
+	C2S_PLAYER_LOGIN			=6;					//角色登录
+	S2C_PLAYER_LOGIN			=7;
+	S2C_PLAYER_QUICK_LOGIN_KEY	=15;				//上面正常C2S_PLAYER_LOGIN角色登录时候,发送一个瞬连密钥
+	C2S_PLAYER_QUICK_LOGIN		=13;				//角色快速登录(瞬连)
+	S2C_PLAYER_QUICK_LOGIN		=14;				//角色快速登录结果
+	S2C_PLAYER_REPLACE_LOGIN	=16;				//通知玩家,角色被顶号登陆(在其他地方登陆)(PB_None)
+	
+	C2S_PLAYER_CREATE			=4;					//角色创建
+	S2C_PLAYER_CREATE			=5;
+	S2C_NET_LOGIN_ERROR			=9;					//登录部分错误码
+	
+	C2S_CLIENT_LOADED			=11;				//客户端加载完成
+	S2C_PLAYER_UPGRADE			=8;					//玩家升级
+	S2C_PLAYER_INFO				=10;				//玩家基础属性
+	S2C_OFFLINE_REWARD			=12;				//服务器向客户端发送离线奖励
+}
+
+//C2S_PLAYER_LOGIN
+message PB_C2SPlayerLogin
+{
+	string AccessToken						= 2;//AccessToken
+	string Platform							= 3;//sdk平台
+	string OS								= 4;//操作系统
+	string GameName							= 5;//游戏名
+	string SysVer							= 6;//操作系统版本
+	string DeviceModel						= 7;//品牌
+	string Memory							= 8;//内存大小
+	string MAC								= 9;//MAC
+}
+//S2C_PLAYER_LOGIN
+message PB_S2CPlayerLogin
+{
+	bool Login 								= 1;//加载标志
+}
+
+//S2C_PLAYER_QUICK_LOGIN_KEY
+message PB_S2CPlayerQuickLoginKey
+{
+	uint64 QuickKey							= 1;//瞬连密钥
+}
+//C2S_PLAYER_QUICK_LOGIN
+message PB_C2SPlayerQuickLogin
+{
+	uint64 ID								= 1;//玩家ID
+	uint64 QuickKey							= 2;//瞬连密钥
+}
+//S2C_PLAYER_QUICK_LOGIN
+message PB_S2CPlayerQuickLogin
+{
+	bool Suc								= 1;//True 瞬连成功
+	int32 ErrCode							= 2;//如果失败,则有失败的错误代码
+}
+
+message PB_C2SPlayerCreate
+{
+	string Name 				= 1;	
+	uint32 Sex 					= 2;	//1:男 2:女
+	uint32 Nation				= 3;	//1:苏联 2:联盟
+	uint32 Shape 				= 4;	//造型
+	uint32 Icon  				= 5;	//头像
+}
+
+message PB_S2CPlayerCreate
+{
+	uint32 hasplayer			= 1;	//为2代表没有角色
+	string AccessToken			= 2;
+}
+//S2C_NET_LOGIN_ERROR
+message PB_NetError
+{
+	uint32 errCode				= 1;	//错误码
+	string errText				= 2;	//错误码为0时候,有错误文字
+}
+message PB_S2CPlayerUpGrade
+{
+	uint32 grade				= 1;
+	uint64 exp					= 2;
+}
+
+//S2C_PLAYER_INFO
+message PB_S2CPlayerInfo
+{
+	uint64 ID								=1;//玩家ID
+	string Name								=2;//玩家姓名
+	uint32 HeroSumID						=3;//玩家在宠物中的ID
+	uint32 Sex								=4;//玩家性别
+	uint32 Grade							=5;//玩家等级
+	uint32 Icon								=6;//头像
+	string TitleName						=7;//称号
+	uint32 Shape							=8;//造型
+	
+	uint64 Exp								=9;//玩家经验
+	uint64 ExpNext							=10;//升级所需经验
+	uint64 ShuiJing							=15;//金币
+	uint64 Gold 							=16;//钻石
+	uint64 BindGold							=17;//绑定钻石
+	int32 Zhanli							=18;//战力
+	uint32 VIP								=19;//VIP等级
+	int32  AllianceID 						=20;//联盟ID
+
+	uint32 CurChapter						=11;//当前所处章节
+	uint32 ComDegree						=12;//当前章节进度
+	bool IsCanNext							=13;//能否通向下一关True:能,False:否
+	bool NextChapterReward					=14;//能否领取过关奖励True:能,False:否
+
+	repeated int32 FightSumList				=21;//激活伙伴id的列表
+
+	uint32 CaiLiaoFuBenCounts  				=22;//材料副本挑战次数
+	uint32 EquipFuBenCounts 				=23;//装备副本挑战次数
+
+	uint32 FriendPoint 						=24;//友情点
+	uint32 YanXiPoint                       =25;//演习点
+	int32  ServerOpenDay					=26;//服务器开启的天数
+	bool IsNewPlayer 						=27;//是否是新玩家
+	int32 BuyNum							=28;//钻石抽奖次数
+	int32 SpaceBattle 						=29;//时空战场通关数
+	int32 FirstRechargeState                =32;//总充值金额
+	int32 FirstRechargeAllReceiveState      =33;//首冲领取全部奖励没
+	int32 ContinueRechargeAllReceiveState   =34;//累充领取全部奖励没
+	int64 RemainingTime                     =35;//下一个累充到期秒
+}
+
+
+message PB_C2SClientLoad
+{
+	bool LoginIn							=1;//客户端加载完成
+}
+
+//客户端上线后,服务器向客户端推送的挂机收益新协议
+message PB_S2COfflineReward
+{
+	uint64 OffLineTime				= 1;	//离线时间
+	int64 exp						= 2;	//主角伙伴经验
+	//int64 summexp					= 3;	//其他伙伴经验
+	int32 ShuiJing					= 4;	//金币
+	int32 RewardCount 				= 5;    //奖励物品的数量
+	int32 SellCount 				= 6;	//出售物品数量
+}

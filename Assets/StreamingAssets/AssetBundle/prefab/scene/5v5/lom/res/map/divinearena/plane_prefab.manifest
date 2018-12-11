@@ -1,0 +1,54 @@
+ManifestFileVersion: 0
+CRC: 3798105482
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dcd418fde5616702d6d7f982989048ea
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6b2f25773be880d601e49b4ae364f312
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 12
+  Script: {instanceID: 0}
+- Class: 15
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 26
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 47b734d6cf544e946a6217f77fe9aa3d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4c30c5ba201d3254a8a5d9027c487023, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 92d0dba4615c71d45bdbfd7c49b539ca, type: 3}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Scene/5V5/LOM/Res/Map/DivineArena/Plane.prefab
+Dependencies:
+- G:/sj/youyouzai-moba-ios/Assets/StreamingAssets/AssetBundle/prefab/scene/5v5/lom/res/map/challengemap/challengemapa/materials/chmapa_sunshine_mat
+- G:/sj/youyouzai-moba-ios/Assets/StreamingAssets/AssetBundle/prefab/scene/5v5/lom/res/map/challengemap/challengemapa/materials/divinearena_sunshine_mat
+- G:/sj/youyouzai-moba-ios/Assets/StreamingAssets/AssetBundle/prefab/scene/5v5/lom/res/map/divinearena/materials/divinearena_mat
+- G:/sj/youyouzai-moba-ios/Assets/StreamingAssets/AssetBundle/prefab/scene/5v5/lom/res/map/divinearena/materials/grasstile_mat
+- G:/sj/youyouzai-moba-ios/Assets/StreamingAssets/AssetBundle/prefab/scene/5v5/lom/res/map/divinearena/materials/naturalalpha_mat
+- G:/sj/youyouzai-moba-ios/Assets/StreamingAssets/AssetBundle/prefab/scene/5v5/lom/res/map/divinearena/materials/rocktile_mat
+- G:/sj/youyouzai-moba-ios/Assets/StreamingAssets/AssetBundle/prefab/scene/5v5/lom/res/map/divinearena/materials/upospace_shine_mat
+- G:/sj/youyouzai-moba-ios/Assets/StreamingAssets/AssetBundle/prefab/scene/5v5/lom/res/map/divinearena/mesh/materials/divinearena_new_mat

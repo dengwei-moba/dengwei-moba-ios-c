@@ -1,0 +1,256 @@
+ManifestFileVersion: 0
+CRC: 167132938
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: config/cos_txt
+      Dependencies: {}
+    Info_1:
+      Name: config/sin_txt
+      Dependencies: {}
+    Info_2:
+      Name: prefab/build/jing_ling_fang_yu_001_mat
+      Dependencies: {}
+    Info_3:
+      Name: prefab/build/jing_ling_fang_yu_001_tga
+      Dependencies: {}
+    Info_4:
+      Name: prefab/build/wang_ling_fang_yu_001_tga
+      Dependencies: {}
+    Info_5:
+      Name: prefab/build/materials/jing_ling_fang_yu_001_mat
+      Dependencies: {}
+    Info_6:
+      Name: prefab/build/materials/jing_ling_fang_yu_1_mat
+      Dependencies:
+        Dependency_0: prefab/build/jing_ling_fang_yu_001_tga
+    Info_7:
+      Name: prefab/build/materials/jing_ling_fang_yu_2_mat
+      Dependencies:
+        Dependency_0: prefab/build/jing_ling_fang_yu_001_tga
+    Info_8:
+      Name: prefab/build/materials/jing_ling_fang_yu_3_mat
+      Dependencies:
+        Dependency_0: prefab/build/jing_ling_fang_yu_001_tga
+    Info_9:
+      Name: prefab/build/materials/texture_1_mat
+      Dependencies: {}
+    Info_10:
+      Name: prefab/build/materials/wang_ling_fang_yu_001_mat
+      Dependencies: {}
+    Info_11:
+      Name: prefab/build/materials/wang_ling_fang_yu_1_mat
+      Dependencies:
+        Dependency_0: prefab/build/wang_ling_fang_yu_001_tga
+    Info_12:
+      Name: prefab/build/materials/wang_ling_fang_yu_2_mat
+      Dependencies:
+        Dependency_0: prefab/build/wang_ling_fang_yu_001_tga
+    Info_13:
+      Name: prefab/build/materials/wang_ling_zhu_jian_zhu_001_mat
+      Dependencies: {}
+    Info_14:
+      Name: prefab/build/stone king  unity 4_1_5/outpost/materials/floor_mat
+      Dependencies:
+        Dependency_0: prefab/build/stone king  unity 4_1_5/outpost/textures/floor_png
+    Info_15:
+      Name: prefab/build/stone king  unity 4_1_5/outpost/materials/stoneking_mat
+      Dependencies:
+        Dependency_0: prefab/build/stone king  unity 4_1_5/outpost/textures/stoneking_tga
+    Info_16:
+      Name: prefab/build/stone king  unity 4_1_5/outpost/models/floor_fbm/floor_png
+      Dependencies: {}
+    Info_17:
+      Name: prefab/build/stone king  unity 4_1_5/outpost/models/stoneking_fbm/stoneking_tga
+      Dependencies: {}
+    Info_18:
+      Name: prefab/build/stone king  unity 4_1_5/outpost/textures/floor_png
+      Dependencies: {}
+    Info_19:
+      Name: prefab/build/stone king  unity 4_1_5/outpost/textures/stoneking_tga
+      Dependencies: {}
+    Info_20:
+      Name: prefab/effect/bullet/houyibullet_prefab
+      Dependencies: {}
+    Info_21:
+      Name: prefab/effect/bullet/pengzhuanfaxiangliang_prefab
+      Dependencies:
+        Dependency_0: prefab/hero/houyi/hero_houyi_mat
+    Info_22:
+      Name: prefab/effect/bullet/pengzhuanweizhi_prefab
+      Dependencies:
+        Dependency_0: prefab/hero/houyi/hero_houyi_mat
+    Info_23:
+      Name: prefab/effect/fire/(legacy) 10m flame projected_png
+      Dependencies: {}
+    Info_24:
+      Name: prefab/effect/fire/fire_prefab
+      Dependencies:
+        Dependency_0: prefab/effect/fire/new material_mat
+    Info_25:
+      Name: prefab/effect/fire/new material_mat
+      Dependencies:
+        Dependency_0: prefab/effect/fire/(legacy) 10m flame projected_png
+    Info_26:
+      Name: prefab/hero/houyi/hero_houyi_mat
+      Dependencies:
+        Dependency_0: prefab/hero/houyi/hero_houyi_tga
+    Info_27:
+      Name: prefab/hero/houyi/hero_houyi_tga
+      Dependencies: {}
+    Info_28:
+      Name: prefab/hero/houyi/houyi_prefab
+      Dependencies:
+        Dependency_0: prefab/hero/houyi/hero_houyi_mat
+    Info_29:
+      Name: prefab/hero/yase/hero_yase_mat
+      Dependencies:
+        Dependency_0: prefab/hero/yase/hero_yase_tga
+    Info_30:
+      Name: prefab/hero/yase/hero_yase_tga
+      Dependencies: {}
+    Info_31:
+      Name: prefab/hero/yase/yase_prefab
+      Dependencies:
+        Dependency_0: prefab/hero/yase/hero_yase_mat
+    Info_32:
+      Name: prefab/scene/5v5/3v3_b_plant_tga
+      Dependencies: {}
+    Info_33:
+      Name: prefab/scene/5v5/5v5_png
+      Dependencies: {}
+    Info_34:
+      Name: prefab/scene/5v5/5v5_2_png
+      Dependencies: {}
+    Info_35:
+      Name: prefab/scene/5v5/lom/res/map/challengemap/challengemapa/materials/chmapa_sunshine_mat
+      Dependencies: {}
+    Info_36:
+      Name: prefab/scene/5v5/lom/res/map/challengemap/challengemapa/materials/divinearena_sunshine_mat
+      Dependencies: {}
+    Info_37:
+      Name: prefab/effect/fire/new material_mat
+      Dependencies:
+        Dependency_0: prefab/effect/wind/wind_png
+    Info_38:
+      Name: prefab/scene/5v5/lom/res/map/divinearena/plane_prefab
+      Dependencies:
+        Dependency_0: prefab/scene/5v5/lom/res/map/challengemap/challengemapa/materials/chmapa_sunshine_mat
+        Dependency_1: prefab/scene/5v5/lom/res/map/challengemap/challengemapa/materials/divinearena_sunshine_mat
+        Dependency_2: prefab/scene/5v5/lom/res/map/divinearena/materials/divinearena_mat
+        Dependency_3: prefab/scene/5v5/lom/res/map/divinearena/materials/grasstile_mat
+        Dependency_4: prefab/scene/5v5/lom/res/map/divinearena/materials/naturalalpha_mat
+        Dependency_5: prefab/scene/5v5/lom/res/map/divinearena/materials/rocktile_mat
+        Dependency_6: prefab/scene/5v5/lom/res/map/divinearena/materials/upospace_shine_mat
+        Dependency_7: prefab/scene/5v5/lom/res/map/divinearena/mesh/materials/divinearena_new_mat
+    Info_39:
+      Name: prefab/scene/5v5/lom/res/map/divinearena/materials/divinearena_mat
+      Dependencies:
+        Dependency_0: prefab/scene/5v5/lom/res/map/divinearena/textures/divinearena_png
+    Info_40:
+      Name: prefab/scene/5v5/lom/res/map/divinearena/materials/grasstile_mat
+      Dependencies:
+        Dependency_0: prefab/scene/5v5/lom/res/map/divinearena/textures/grasstile_png
+    Info_41:
+      Name: prefab/scene/5v5/lom/res/map/divinearena/materials/naturalalpha_mat
+      Dependencies:
+        Dependency_0: prefab/scene/5v5/lom/res/map/divinearena/textures/naturalalpha_tga
+    Info_42:
+      Name: prefab/scene/5v5/lom/res/map/divinearena/materials/rocktile_mat
+      Dependencies:
+        Dependency_0: prefab/scene/5v5/lom/res/map/divinearena/textures/rocktile_png
+    Info_43:
+      Name: prefab/scene/5v5/lom/res/map/divinearena/materials/upospace_shine_mat
+      Dependencies:
+        Dependency_0: prefab/scene/5v5/lom/res/map/divinearena/textures/upospace_shine_png
+    Info_44:
+      Name: prefab/scene/5v5/lom/res/map/divinearena/mesh/materials/divinearena_new_mat
+      Dependencies: {}
+    Info_45:
+      Name: prefab/scene/5v5/lom/res/map/divinearena/textures/divinearena_png
+      Dependencies: {}
+    Info_46:
+      Name: prefab/scene/5v5/lom/res/map/divinearena/textures/grasstile_png
+      Dependencies: {}
+    Info_47:
+      Name: prefab/scene/5v5/lom/res/map/divinearena/textures/naturalalpha_tga
+      Dependencies: {}
+    Info_48:
+      Name: prefab/scene/5v5/lom/res/map/divinearena/textures/rocktile_png
+      Dependencies: {}
+    Info_49:
+      Name: prefab/scene/5v5/lom/res/map/divinearena/textures/upospace_shine_png
+      Dependencies: {}
+    Info_50:
+      Name: prefab/scene/5v5/materials/3v3_b_plant_mat
+      Dependencies:
+        Dependency_0: prefab/scene/5v5/3v3_b_plant_tga
+    Info_51:
+      Name: prefab/scene/5v5/materials/5v5_mat
+      Dependencies:
+        Dependency_0: prefab/scene/5v5/5v5_2_png
+    Info_52:
+      Name: prefab/scene/5v5/materials/5v5_2_mat
+      Dependencies:
+        Dependency_0: prefab/scene/5v5/5v5_png
+    Info_53:
+      Name: prefab/scene/5v5/materials/divinearena_mat
+      Dependencies:
+        Dependency_0: prefab/scene/5v5/lom/res/map/divinearena/textures/divinearena_png
+    Info_54:
+      Name: prefab/scene/5v5/materials/grasstile_mat
+      Dependencies:
+        Dependency_0: prefab/scene/5v5/lom/res/map/divinearena/textures/grasstile_png
+    Info_55:
+      Name: prefab/scene/5v5/materials/naturalalpha_mat
+      Dependencies:
+        Dependency_0: prefab/scene/5v5/lom/res/map/divinearena/textures/naturalalpha_tga
+    Info_56:
+      Name: prefab/scene/5v5/materials/rocktile_mat
+      Dependencies:
+        Dependency_0: prefab/scene/5v5/lom/res/map/divinearena/textures/rocktile_png
+    Info_57:
+      Name: prefab/ui/loginview_prefab
+      Dependencies:
+        Dependency_0: textrue/bg_png
+    Info_58:
+      Name: prefab/ui/matchview_prefab
+      Dependencies:
+        Dependency_0: textrue/bg_png
+    Info_59:
+      Name: prefab/ui/notifyview_prefab
+      Dependencies:
+        Dependency_0: textrue/bg_png
+    Info_60:
+      Name: prefab/ui/registerview_prefab
+      Dependencies:
+        Dependency_0: textrue/bg_png
+    Info_61:
+      Name: prefab/ui/resprondnotifyview_prefab
+      Dependencies:
+        Dependency_0: textrue/bg_png
+    Info_62:
+      Name: textrue/bg_png
+      Dependencies: {}
+    Info_65:
+      Name: prefab/effect/bullet/pengzhuanweizhi_prefab
+      Dependencies:
+        Dependency_0: prefab/hero/houyi/hero_houyi_mat
+    Info_66:
+      Name: prefab/effect/bullet/pengzhuanfaxiangliang_prefab
+      Dependencies:
+        Dependency_0: prefab/hero/houyi/hero_houyi_mat
+    Info_67:
+      Name: daobiao/binarydata/rofbuff_bytes
+      Dependencies: {}
+    Info_68:
+      Name: prefab/effect/wind/new material_mat
+      Dependencies:
+        Dependency_0: prefab/effect/wind/wind_png
+    Info_69:
+      Name: prefab/effect/wind/wind_png
+      Dependencies: {}
+    Info_70:
+      Name: prefab/effect/wind/wind_prefab
+      Dependencies:
+        Dependency_0: prefab/effect/fire/new material_mat

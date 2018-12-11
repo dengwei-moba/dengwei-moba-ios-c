@@ -1,0 +1,86 @@
+syntax	= "proto3";
+package Google.Protobuf;
+//============以上不再客户端导表生成==============
+//提示通知/对白框相关系统消息协议	
+
+enum NotifyMsgID
+{
+	S2C_NOTIFY_NARMAL				= 0;	//普通悬浮提示
+	S2C_NOTIFY_OPTION_MSG			= 1;	//对白框/选项框(单选)
+	S2C_NOTIFY_INPUT				= 2;	//输入框
+//	S2C_NOTIFY_GIVE_ITME			= 3;	//上交物品框
+//	S2C_NOTIFY_GIVE_SUMMON			= 4;	//上交宠物框
+	S2C_NOTIFY_PROGRESS				= 6;	//采集进度条
+
+	S2C_NOTIFY_CLEAR				= 7;	//立刻清除框
+
+	C2GS_NOTIFY_OPTION_ANSWER		= 8;	//对白框/选项框回复
+	C2GS_NOTIFY_INPUT_ANSWER		= 9;	//输入框回复
+	S2C_GOLDEQUIP_HINT              =10;   //金装提示
+}
+
+//S2C_GOLDEQUIP_HINT
+//message PB_Item
+
+//S2C_NOTIFY_NARMAL
+message PB_NotifyNarmal {
+	string Msg						= 1;	//
+}
+
+message PB_NotifyOption {
+	int32 Idx						= 1;	//选项序号
+	string Content					= 2;	//选项按钮文字
+}
+
+//S2C_NOTIFY_OPTION_MSG
+//exchange.S2C_TRY_EXCHANGE_RESPONSE
+message PB_NotifyOptionMsg {
+	int32 ResprondIdx				= 1;	//对白框唯一标识码(回传给服务器用的)
+	string Title					= 2;	//
+	string Msg						= 3;	//
+	//以下是可能出现的属性
+	int32 NpcID						= 4;	//(回传给服务器用的)
+	int32 NpcShape					= 5;	//
+	int32 NpcName					= 6;	//
+	int32 TemplID					= 7;	//(回传给服务器用的)
+	int32 ShowTime					= 8;	//=-1不自动消失,=正数:X秒后消失
+	repeated PB_NotifyOption Options= 9;	//选项
+}
+
+//S2C_NOTIFY_INPUT
+message PB_NotifyInputMsg {
+	int32 ResprondIdx				= 1;	//对白框唯一标识码(回传给服务器用的)
+	string Title					= 2;	//
+	string Msg						= 3;	//
+	//以下是可能出现的属性
+	int32 NpcID						= 4;	//(回传给服务器用的)
+	int32 NpcShape					= 5;	//
+	int32 NpcName					= 6;	//
+	int32 TemplID					= 7;	//(回传给服务器用的)
+	int32 ShowTime					= 8;	//=-1不自动小时,=正数:X秒后消失
+}
+
+//S2C_NOTIFY_PROGRESS
+message PB_NotifyProgress {
+	int32 ResprondIdx				= 1;	//唯一标识码(回传给服务器用的)
+	string Time						= 2;	//播放时间
+	string Msg						= 3;	//
+}
+
+//S2C_NOTIFY_CLEAR
+message PB_NotifyClear {
+	int32 Type						= 1;	//1：npctalk，2压屏对话，3确认框，4选择列表框,99所有
+}
+
+//C2GS_NOTIFY_OPTION_ANSWER
+//exchange.C2S_EXCHANGE_RESPONSE
+message PB_NotifyOptionAnswer {
+	int32 ResprondIdx				= 1;	//
+	int32 Idx						= 2;	//选项序号
+}
+
+//C2GS_NOTIFY_INPUT_ANSWER
+message PB_NotifyInputAnswer {
+	int32 ResprondIdx				= 1;	//
+	string Content					= 2;	//输入框回复内容
+}

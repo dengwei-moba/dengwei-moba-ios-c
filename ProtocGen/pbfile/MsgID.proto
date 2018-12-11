@@ -1,0 +1,164 @@
+syntax = "proto3";
+package Google.Protobuf;
+
+//============以上不再客户端导表生成==============
+
+//---------//消息ID
+
+enum MsgID
+{
+	MsgID_NONE					= 0;
+	HeartbeatID					= 1;
+	
+	TestProtoID					= 2;
+	
+
+	
+	HERO_LOGIN					= 101;          //英雄登录
+	PLAYER_LOGINOUT				= 102;			//英雄登出
+	ALL_HERO_LIST_ID			= 103;          //玩家角色信息
+	ERROR_ID					= 104;          //错误信息
+	S2C_ENTER_GAME__FLAG 		= 105;          //通知客户端登录可以显示主界面
+	TEAM_CREAT_ID				= 106;          //创建队伍
+	C2S_TeamJoin				= 107;          //加入队伍
+	C2S_TeamLeave				= 108;          //离开队伍
+	S2C_ChannelChat				= 109;          //频道信息
+	C2S_TeamApplyHandle			= 110;          //处理入队申请
+	C2S_HeroCreate				= 111;     		//申请创建英雄
+	S2C_HeroOffineNotice		= 112;           //英雄被其他玩家挤下线
+
+	C2S_LOGIN_INFO 				= 423;
+	S2C_LOGIN_INFO 				= 424;
+	
+	//匹配系统MatchMsgID
+	C2S_MATCH = 200;
+	S2C_MATCH = 201;
+	
+	//战斗系统消息协议	
+	C2S_LOGIN_HELLO				= 401;			//登陆请求			//PB_C2SLoginHello
+	C2S_FIGHT_LOADING_END		= 402;			//客户端资源加载完成	//PB_C2SFightLoadingEnd
+	S2C_FIGHT_START				= 403;			//副本战斗开始		//PB_S2CFightStart
+	C2S_INPUT_INFO				= 404;			//玩家输入信息		//PB_C2SClientInput
+	S2C_FRAME_INFO				= 405;			//帧同步信息			//PB_FrameInfo
+	C2S_FIGHT_OUT				= 406;			//玩家中途强制退出战斗
+	C2S_FIGHT_END				= 407;			//客户端结束战斗逻辑
+	S2C_FIGHT_END				= 408;			//战斗失败/胜利后退出战斗,及结算信息
+	FIGHT_LOADING_AGAIN			= 409;			//客户端战斗中资源加载协议
+	
+	//各个模块的公用的协议
+	S2C_NOTIFY_MESSAGE			=500;			//服务器推送
+	//=============================================================================
+	
+	//H5协议
+	//地图协议相关SceneMsgID
+	C2S_SCENE = 615;
+	S2C_SCENE = 616;
+	
+	//登录部分AccountMsgID       
+	C2S_ACCOUNT = 600;
+	S2C_ACCOUNT = 601;
+
+	//充值系统ChargeMsgID
+	C2S_CHARGE = 635;
+	S2C_CHARGE = 636;
+	
+	//背包部分BagMsgID
+    C2S_BAG = 602;
+    S2C_BAG = 603;
+	
+	//战斗部分CombatMsgID
+    C2S_COMBAT = 604;
+    S2C_COMBAT = 605;
+	
+	//人物面板PanelMsgID
+    C2S_PANEL = 606;
+    S2C_PANEL = 607;
+	
+	//GM接口GmMsgID
+    C2S_GM_COMMAND = 608;
+	
+	//获取其他玩家数据显示CommomMsgID
+    C2S_COMMON = 609;
+    S2C_COMMON = 610;
+
+    //战局相关协议WarContinuousMsgID
+    GS2C_CONTINUOS_WAR		= 611;			//战局
+    //战斗相关协议WarMsgID
+    GS2C_WAR				= 612;			//战斗
+
+    //任务相关TaskMsgID
+    C2S_TASK = 613;
+    S2C_TASK = 614;
+
+    //提示通知/对白框相关系统消息协议NotifyMsgID
+    C2S_NOTIFY = 617;
+    S2C_NOTIFY = 618;
+
+    //NPC系统消息协议NpcMsgID
+    C2S_NPC = 619;
+    S2C_NPC = 620;
+	
+	//活动相关协议HuodongMsgID
+	C2S_HUODONG = 621;
+	S2C_HUODONG = 622;
+	
+	//summon相关SummonMsgID
+	C2S_SUMMON = 623;
+	S2C_SUMMON = 624;
+
+	//聊天系统ChannelMsgID
+	C2S_CHANNEL = 625;
+	S2C_CHANNEL = 626;
+
+	//好友系统FriendMsgID
+	C2S_FRIEND	= 627;
+	S2C_FRIEND	= 628;
+
+	//帮派
+	C2S_ALLIANCE = 629;
+	S2C_ALLIANCE = 630;
+
+	//邮件MailMsgID
+	C2S_MAIL    = 631;
+	S2C_MAIL    = 632;
+
+	//商店
+	C2GS_SHOP    = 633;
+	GS2C_SHOP    = 634;
+
+	//和之前活动导表不同的活动HuodongMsgID
+	C2S_HUODONG_OTHER   =639;
+	S2C_HUODONG_OTHER   =640;
+
+	//商城StoreMsgID
+	C2S_STORE = 637;
+	S2C_STORE = 638;
+
+	// 排行榜
+	C2S_RANK  	= 641;
+	S2C_RANK	= 642;
+
+	// 活动
+	C2S_ACTIVITY = 643;
+	S2C_ACTIVITY = 644;
+
+	//装备
+	C2S_EQUIP  	= 645;
+	S2C_EQUIP	= 646;
+
+	//幸运商店
+	C2S_LUCKYSHOP = 647;
+	S2C_LUCKYSHOP = 648;
+
+	//红点功能
+	C2S_PROMPT	= 649;
+	S2C_PROMPT	= 650;
+
+	//金币兑换水晶
+	C2S_EXCHANGE	= 651;
+	S2C_EXCHANGE	= 652;
+}
+
+//提供给所有无内容的消息使用
+message PB_None {
+}
