@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2363777450
+CRC: 3906444677
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0bb757389f1290b65104ec6f05f21539
+    Hash: 580c903f8553c87e9a2edc92ac1036bc
   TypeTreeHash:
     serializedVersion: 2
-    Hash: d1ae6e26fb0b4d11fccd18da598542fa
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
 HashAppended: 0
 ClassTypes:
 - Class: 21
@@ -18,4 +18,4 @@ ClassTypes:
 Assets:
 - Assets/Prefab/Effect/Wind/New Material.mat
 Dependencies:
-- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/prefab/effect/wind/wind_png
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/wind/wind_png

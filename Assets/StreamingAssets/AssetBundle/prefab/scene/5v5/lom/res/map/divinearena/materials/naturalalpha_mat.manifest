@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1246645316
+CRC: 1238522888
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ed433f8664970f6aa30314a78e1c550c
+    Hash: bb080e8cdd1a4d642648329d7b8ad1c4
   TypeTreeHash:
     serializedVersion: 2
-    Hash: d1ae6e26fb0b4d11fccd18da598542fa
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
 HashAppended: 0
 ClassTypes:
 - Class: 21
@@ -18,4 +18,4 @@ ClassTypes:
 Assets:
 - Assets/Prefab/Scene/5V5/LOM/Res/Map/DivineArena/Materials/NaturalAlpha.mat
 Dependencies:
-- G:/sj/youyouzai-moba-ios/Assets/StreamingAssets/AssetBundle/prefab/scene/5v5/lom/res/map/divinearena/textures/naturalalpha_tga
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/scene/5v5/lom/res/map/divinearena/textures/naturalalpha_tga

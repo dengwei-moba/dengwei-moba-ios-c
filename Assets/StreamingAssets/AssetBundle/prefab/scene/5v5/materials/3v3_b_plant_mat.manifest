@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3072616973
+CRC: 1537329145
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 64921c16a039881c0c77f75628b1047e
+    Hash: 19a13933940578a35e0710749205b956
   TypeTreeHash:
     serializedVersion: 2
-    Hash: d1ae6e26fb0b4d11fccd18da598542fa
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
 HashAppended: 0
 ClassTypes:
 - Class: 21
@@ -18,4 +18,4 @@ ClassTypes:
 Assets:
 - Assets/Prefab/Scene/5V5/Materials/3v3_b_plant.mat
 Dependencies:
-- G:/sj/youyouzai-moba-ios/Assets/StreamingAssets/AssetBundle/prefab/scene/5v5/3v3_b_plant_tga
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/scene/5v5/3v3_b_plant_tga

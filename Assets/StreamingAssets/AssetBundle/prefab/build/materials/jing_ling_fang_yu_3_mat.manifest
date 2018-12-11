@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 284478135
+CRC: 2208472907
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 2126e9e2d19032a10784a31ec95bddd0
+    Hash: ba46b3e52439fa019cc697570490bac9
   TypeTreeHash:
     serializedVersion: 2
-    Hash: d1ae6e26fb0b4d11fccd18da598542fa
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
 HashAppended: 0
 ClassTypes:
 - Class: 21
@@ -18,4 +18,4 @@ ClassTypes:
 Assets:
 - Assets/Prefab/Build/Materials/jing_ling_fang_yu_3.mat
 Dependencies:
-- G:/sj/youyouzai-moba-ios/Assets/StreamingAssets/AssetBundle/prefab/build/jing_ling_fang_yu_001_tga
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/build/jing_ling_fang_yu_001_tga

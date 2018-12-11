@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3127380061
+CRC: 3288382594
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 11f6758fa4e432a2fe6f7ff8f0d539eb
+    Hash: c3aad790318aecd1c45620878a215dbd
   TypeTreeHash:
     serializedVersion: 2
-    Hash: d1ae6e26fb0b4d11fccd18da598542fa
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
 HashAppended: 0
 ClassTypes:
 - Class: 21
@@ -18,4 +18,4 @@ ClassTypes:
 Assets:
 - Assets/Prefab/Scene/5V5/LOM/Res/Map/DivineArena/Materials/DivineArena.mat
 Dependencies:
-- G:/sj/youyouzai-moba-ios/Assets/StreamingAssets/AssetBundle/prefab/scene/5v5/lom/res/map/divinearena/textures/divinearena_png
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/scene/5v5/lom/res/map/divinearena/textures/divinearena_png
