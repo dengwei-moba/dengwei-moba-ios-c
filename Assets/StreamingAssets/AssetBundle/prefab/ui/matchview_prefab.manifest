@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3883357482
+CRC: 3752861165
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c0783c47308adf240d0f641e15a8021f
+    Hash: 335974fa9c6c522a94788a923f0eefe2
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 0b02233a1595f9d2e7d53cdc501352e5
+    Hash: a2c28859fc5a3b2e8dfcf1985de6ffb3
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -48,4 +48,4 @@ ClassTypes:
 Assets:
 - Assets/Prefab/UI/MatchView.prefab
 Dependencies:
-- G:/sj/youyouzai-moba-ios/Assets/StreamingAssets/AssetBundle/textrue/bg_png
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/textrue/bg_png

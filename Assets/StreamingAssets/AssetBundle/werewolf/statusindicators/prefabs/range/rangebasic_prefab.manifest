@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 857843971
+CRC: 878639742
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 3b0008d7031be13890cb9267746e7b40
+    Hash: 32e00d33aab026434f11bde383ee8978
   TypeTreeHash:
     serializedVersion: 2
-    Hash: bc9c6a6eb062b5abbb151b883b604070
+    Hash: b615fcbc1e43ceadb7f7cb0bcfc86504
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -24,4 +24,4 @@ ClassTypes:
 Assets:
 - Assets/Werewolf/StatusIndicators/Prefabs/Range/RangeBasic.prefab
 Dependencies:
-- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/range/rangebasic_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/range/rangebasic_mat

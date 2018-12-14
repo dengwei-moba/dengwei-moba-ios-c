@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3089237998
+CRC: 3270794134
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 989d4c602509049dc9da2b25682f4aec
+    Hash: 15da81590bf9b912161fb7b126e90232
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 9dc1b4a79b6f1eb1fe8dc23a67796d5e
+    Hash: 156d4481c4a793aed26dddc6242f90f9
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,4 +42,4 @@ ClassTypes:
 Assets:
 - Assets/Prefab/Hero/yase/yase.prefab
 Dependencies:
-- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/prefab/hero/yase/hero_yase_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/hero/yase/hero_yase_mat

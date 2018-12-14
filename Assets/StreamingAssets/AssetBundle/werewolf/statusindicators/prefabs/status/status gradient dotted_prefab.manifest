@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1458361722
+CRC: 2854523906
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9ec8fb62f0ca6892016dc4e4e32248f1
+    Hash: 975fa5ab54ef48ef8241ef1c9af9b7c8
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 03c85b9baa6239d2ad581dd8500227b8
+    Hash: cea39e6113895ffc6d6827f3d51cbf72
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -26,4 +26,4 @@ ClassTypes:
 Assets:
 - Assets/Werewolf/StatusIndicators/Prefabs/Status/Status Gradient Dotted.prefab
 Dependencies:
-- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/status/statusgradientdotted_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/status/statusgradientdotted_mat

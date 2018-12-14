@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1083364688
+CRC: 1969491476
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8c27b31b2a3d95ab96401afee3d4f06d
+    Hash: 8c5af0f6bd0a9af4da6cdbd944e5e39d
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 4dd28f64244cd8bd3f1d957ac0b6e944
+    Hash: b68f46adff6bd560a3eb6033f5ca6e95
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -24,5 +24,5 @@ ClassTypes:
 Assets:
 - Assets/Werewolf/StatusIndicators/Prefabs/LineMissile/Line Missile Basic 2.prefab
 Dependencies:
-- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/linemissile/linemissilebasic2/missilebody_mat
-- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/linemissile/linemissilebasic2/missilehead_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/linemissile/linemissilebasic2/missilehead_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/linemissile/linemissilebasic2/missilebody_mat

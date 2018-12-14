@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1620167665
+CRC: 4132308149
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a7b97f95ed919fc83a645aae71352948
+    Hash: 92eb9e35a8bc170307d924027b4b8ca8
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 3d9d24279c70feaee90f1d460412b0f6
+    Hash: a5074cfd60d86cfbd574c73d26e4bbc7
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -50,4 +50,4 @@ ClassTypes:
 Assets:
 - Assets/Prefab/UI/LoginView.prefab
 Dependencies:
-- G:/sj/youyouzai-moba-ios/Assets/StreamingAssets/AssetBundle/textrue/bg_png
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/textrue/bg_png

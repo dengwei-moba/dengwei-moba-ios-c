@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3960515689
+CRC: 3710930787
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4528d39b1146312a795db23a3e95f4c8
+    Hash: 38c50b453a4ce2c0fa16f2365d658054
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 03c85b9baa6239d2ad581dd8500227b8
+    Hash: cea39e6113895ffc6d6827f3d51cbf72
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -26,4 +26,4 @@ ClassTypes:
 Assets:
 - Assets/Werewolf/StatusIndicators/Prefabs/Status/Status Basic 2.prefab
 Dependencies:
-- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/status/statusbasic2_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/status/statusbasic2_mat
