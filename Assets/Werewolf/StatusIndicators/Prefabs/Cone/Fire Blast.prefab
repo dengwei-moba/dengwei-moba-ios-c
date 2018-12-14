@@ -196,6 +196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d90ab5acb1e512d43b45915fb237b8ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  JoystickVector: {x: 0, y: 0, z: 0}
   progress: 0
   scale: 15
   width: 0
@@ -298,7 +299,7 @@ Projector:
   m_Material: {fileID: 2100000, guid: db58ebe94db5dc04b81b2ab8716525bf, type: 2}
   m_IgnoreLayers:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 4294965247
 --- !u!119 &11941062
 Projector:
   m_ObjectHideFlags: 1
@@ -316,7 +317,7 @@ Projector:
   m_Material: {fileID: 2100000, guid: 8db5f861365ea5d40afd377bfd8f7a6a, type: 2}
   m_IgnoreLayers:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 4294965247
 --- !u!119 &11948696
 Projector:
   m_ObjectHideFlags: 1
@@ -334,7 +335,7 @@ Projector:
   m_Material: {fileID: 2100000, guid: dc129c8e5de3d5b42a1366700744d494, type: 2}
   m_IgnoreLayers:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 4294965247
 --- !u!119 &11979106
 Projector:
   m_ObjectHideFlags: 1
@@ -352,7 +353,7 @@ Projector:
   m_Material: {fileID: 2100000, guid: 46a3f805148b07443885c9bb9c3510f6, type: 2}
   m_IgnoreLayers:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 4294965247
 --- !u!119 &11981940
 Projector:
   m_ObjectHideFlags: 1
@@ -370,7 +371,7 @@ Projector:
   m_Material: {fileID: 2100000, guid: 1b0c269f1cc14e64590d2d3abb74cc95, type: 2}
   m_IgnoreLayers:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 4294965247
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
