@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3027189219
+CRC: 3370573132
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 2316468fc0637404ac0e00fa2f542974
+    Hash: ea40668015ce892055b0b1b78c69ff7e
   TypeTreeHash:
     serializedVersion: 2
-    Hash: fe397485c3cec1106b49e9ff95e8f8a2
+    Hash: d1ae6e26fb0b4d11fccd18da598542fa
 HashAppended: 0
 ClassTypes:
 - Class: 21
@@ -18,6 +18,6 @@ ClassTypes:
 Assets:
 - Assets/Werewolf/StatusIndicators/Prefabs/Materials/SpellIndicators/LineMissile/LineMissileBasic1/MissileHead.mat
 Dependencies:
-- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/textures/splattextures/range/range_png
-- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/textures/splattextures/linemissile/missilehead1_png
-- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/scripts/shaders/projectorbasic_shader
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/scripts/shaders/projectorbasic_shader
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/textures/splattextures/linemissile/missilehead1_png
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/textures/splattextures/range/range_png

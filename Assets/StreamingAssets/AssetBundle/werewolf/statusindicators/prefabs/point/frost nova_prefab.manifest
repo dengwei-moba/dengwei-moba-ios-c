@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 4252897715
+CRC: 4016567699
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0481d52d84e4b30a3984bc0d48699e56
+    Hash: 54d98cbcb34a0cc1e4357033e07892f5
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 31721eff322d3b96a0092b8a3b8167fd
+    Hash: d9408189211bcc6fc26cffbd489f28c2
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -30,6 +30,6 @@ ClassTypes:
 Assets:
 - Assets/Werewolf/StatusIndicators/Prefabs/Point/Frost Nova.prefab
 Dependencies:
-- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/range/frostnova/pointcharge2_mat
-- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/range/frostnova/pointbase2_mat
-- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/range/frostnova/pointdeco2_mat
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/range/frostnova/pointbase2_mat
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/range/frostnova/pointcharge2_mat
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/range/frostnova/pointdeco2_mat

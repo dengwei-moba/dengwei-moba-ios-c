@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3290866088
+CRC: 3448318955
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 92ca79db42891812fb9774621e0f90fe
+    Hash: 0b7203bf90f7dc0b87120443cc0bbf00
   TypeTreeHash:
     serializedVersion: 2
-    Hash: fe397485c3cec1106b49e9ff95e8f8a2
+    Hash: d1ae6e26fb0b4d11fccd18da598542fa
 HashAppended: 0
 ClassTypes:
 - Class: 21
@@ -18,6 +18,6 @@ ClassTypes:
 Assets:
 - Assets/Werewolf/StatusIndicators/Prefabs/Materials/SpellIndicators/Cone/ChaosBlast/ConeLBorder.mat
 Dependencies:
-- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/textures/distorttextures/noise4_png
-- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/textures/splattextures/cone/coneborderl_png
-- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/scripts/shaders/projectorholocone_shader
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/scripts/shaders/projectorholocone_shader
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/textures/distorttextures/noise4_png
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/textures/splattextures/cone/coneborderl_png

@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 244194173
+CRC: 581385187
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 56f96cbd28c98a5ebc1a6b9cd9baca5e
+    Hash: 6d147cdf22626d806e70aedcc099340e
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 8809a9c3aece631d7628bd548ae3934f
+    Hash: ee96b98c7b8e9404fc27edfcf52e7cce
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -24,5 +24,5 @@ ClassTypes:
 Assets:
 - Assets/Prefab/Effect/Fire/fire.prefab
 Dependencies:
-- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/fire/new
+- G:/sj/youyouzai-moba-ios/Assets/StreamingAssets/AssetBundle/prefab/effect/fire/new
   material_mat

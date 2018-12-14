@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3033788736
+CRC: 362951178
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a0fde2bceb5cb9fd2ddac24c530fc03f
+    Hash: 1ea19f9322e9d626721d547120bc7bcf
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 31c654165fbc3bc4ef0aa350e7ea9f53
+    Hash: 5fbd5e32104575d050494759e25e0b1e
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -26,4 +26,4 @@ ClassTypes:
 Assets:
 - Assets/Werewolf/StatusIndicators/Prefabs/AngleMissile/Ice Arrow.prefab
 Dependencies:
-- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/anglemissile/magiccrossbow/crossbow2_mat
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/anglemissile/magiccrossbow/crossbow2_mat

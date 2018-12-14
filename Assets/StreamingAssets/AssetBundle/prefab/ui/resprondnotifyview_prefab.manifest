@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 773471131
+CRC: 1526355044
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e443b399369c6da632673d4cedf623d1
+    Hash: 3f4d578e8db80a6b913509ce67f1825f
   TypeTreeHash:
     serializedVersion: 2
-    Hash: c8f411cf188b8edd45d911831b381780
+    Hash: 86a99e6855500ac9ef25a8b11c82ff31
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -50,4 +50,4 @@ ClassTypes:
 Assets:
 - Assets/Prefab/UI/ResprondNotifyView.prefab
 Dependencies:
-- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/textrue/bg_png
+- G:/sj/youyouzai-moba-ios/Assets/StreamingAssets/AssetBundle/textrue/bg_png

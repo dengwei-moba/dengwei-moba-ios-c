@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1474007939
+CRC: 906397873
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1729561e9e23096fe8cd443d16d24f41
+    Hash: cb82cdddd8343ae291abe2efd43dc4f2
   TypeTreeHash:
     serializedVersion: 2
-    Hash: cea39e6113895ffc6d6827f3d51cbf72
+    Hash: 03c85b9baa6239d2ad581dd8500227b8
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -26,4 +26,4 @@ ClassTypes:
 Assets:
 - Assets/Werewolf/StatusIndicators/Prefabs/Status/Status 6Bar.prefab
 Dependencies:
-- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/status/status6bar_mat
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/status/status6bar_mat

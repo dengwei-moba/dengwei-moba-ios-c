@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1884007455
+CRC: 2345517866
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7a8559ba150f16adc763cf8ae5376118
+    Hash: b02e6127d1df27c4bfbbaa9e81a6ff01
   TypeTreeHash:
     serializedVersion: 2
-    Hash: c6d63c11eb914b01e20f8fcc86e3b048
+    Hash: 6138e28168e71146e70fa28df81f6634
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -24,4 +24,4 @@ ClassTypes:
 Assets:
 - Assets/Werewolf/StatusIndicators/Prefabs/AngleMissile/Angle Missile Basic.prefab
 Dependencies:
-- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/anglemissile/anglemissilebasic/missilebody_mat
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/anglemissile/anglemissilebasic/missilebody_mat

@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3686270207
+CRC: 2973748860
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c43a551b10924acce58602e1f63c3e10
+    Hash: dc842e7f3309cdf3eb7223128f7d4965
   TypeTreeHash:
     serializedVersion: 2
-    Hash: cea39e6113895ffc6d6827f3d51cbf72
+    Hash: 03c85b9baa6239d2ad581dd8500227b8
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -26,4 +26,4 @@ ClassTypes:
 Assets:
 - Assets/Werewolf/StatusIndicators/Prefabs/Status/Status Charge Example.prefab
 Dependencies:
-- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/status/statuschargeexample_mat
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/status/statuschargeexample_mat
