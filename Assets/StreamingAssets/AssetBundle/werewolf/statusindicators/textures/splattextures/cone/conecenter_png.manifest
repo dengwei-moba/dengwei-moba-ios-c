@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3300044956
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b681ee38dbefe260b5682510b16b22fb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Werewolf/StatusIndicators/Textures/SplatTextures/Cone/ConeCenter.png
+Dependencies: []

@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 965773143
+CRC: 1606751289
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 677fb28e141ebe09e3086437b968183e
+    Hash: d1d70f216a4cf1a3bf77cd5ee7873468
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 391cd553172d6ce376292d55d08c9a17
+    Hash: 94b0dc7a728a82ad324737b1e91dcc29
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -32,4 +32,4 @@ ClassTypes:
 Assets:
 - Assets/Prefab/Effect/Bullet/pengzhuanfaxiangliang.prefab
 Dependencies:
-- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/hero/houyi/hero_houyi_mat
+- G:/sj/youyouzai-moba-ios/Assets/StreamingAssets/AssetBundle/prefab/hero/houyi/hero_houyi_mat

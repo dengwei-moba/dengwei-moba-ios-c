@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 2768727619
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9158326d0a165d5820d0f5f5504c3e37
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d1ae6e26fb0b4d11fccd18da598542fa
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Werewolf/StatusIndicators/Prefabs/Materials/SpellIndicators/Cone/FrostBlast/ConeLBorder1.mat
+Dependencies:
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/scripts/shaders/projectorholocone_shader
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/textures/distorttextures/noise4_png
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/textures/splattextures/cone/coneborderl_png

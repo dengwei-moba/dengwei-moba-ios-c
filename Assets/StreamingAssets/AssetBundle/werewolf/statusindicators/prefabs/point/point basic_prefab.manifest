@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 1659761029
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 178a7bb580816b30961a9daca1c98f04
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6701b1cd9ecebb045bc33ea6660ef52d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: c84e1651e0495114aa1991a1e21b6d28, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 139307d2589ef80408c48babe24a6f36, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 119
+  Script: {instanceID: 0}
+Assets:
+- Assets/Werewolf/StatusIndicators/Prefabs/Point/Point Basic.prefab
+Dependencies:
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/point/targetbasic/pointbase_mat
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/point/targetbasic/pointcharge_mat
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/point/targetbasic/pointcrosshair_mat
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/point/targetbasic/pointdeco_mat

@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 1083364688
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8c27b31b2a3d95ab96401afee3d4f06d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4dd28f64244cd8bd3f1d957ac0b6e944
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: e955c98c1106e954da083a93401d4668, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 119
+  Script: {instanceID: 0}
+Assets:
+- Assets/Werewolf/StatusIndicators/Prefabs/LineMissile/Line Missile Basic 2.prefab
+Dependencies:
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/linemissile/linemissilebasic2/missilebody_mat
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/linemissile/linemissilebasic2/missilehead_mat

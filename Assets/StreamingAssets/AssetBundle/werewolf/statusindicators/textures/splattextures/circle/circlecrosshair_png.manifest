@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2603177306
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f6f3c104e9038b8da624b157067c3c15
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Werewolf/StatusIndicators/Textures/SplatTextures/Circle/CircleCrosshair.png
+Dependencies: []

@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2699674314
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 12d052770d071993c73c5ab9dcd5226b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Werewolf/StatusIndicators/Textures/SplatTextures/LineMissile/MissileHead4.png
+Dependencies: []

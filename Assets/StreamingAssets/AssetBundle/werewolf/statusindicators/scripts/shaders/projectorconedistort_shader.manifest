@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2942459537
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 074be2af0c0abf5494588564aa781a24
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cc7b69794a2bdada249e557ebbfded10
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Werewolf/StatusIndicators/Scripts/Shaders/ProjectorConeDistort.shader
+Dependencies: []

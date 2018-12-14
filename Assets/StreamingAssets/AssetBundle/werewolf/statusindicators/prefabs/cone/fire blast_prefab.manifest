@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 1480417935
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 287af3d7f1ffd62a17cce5ebf7207ac4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 69a5306be620750ae3ac31c0f1da28c1
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 365c0ea6ca29d4443994cda038caca42, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 90177b98b18f0d546a0ce617da9f5514, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d90ab5acb1e512d43b45915fb237b8ff, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 119
+  Script: {instanceID: 0}
+Assets:
+- Assets/Werewolf/StatusIndicators/Prefabs/Cone/Fire Blast.prefab
+Dependencies:
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/cone/fireblast/conebase_mat
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/cone/fireblast/conecenter_mat
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/cone/fireblast/conedeco_mat
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/cone/fireblast/conelborder_mat
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/cone/fireblast/conerborder_mat

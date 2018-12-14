@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 2664197921
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 90085075f62f2c6c05536448fef446e4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 616561a6e7b34ae36b8960613dc3ae3a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: c84e1651e0495114aa1991a1e21b6d28, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 139307d2589ef80408c48babe24a6f36, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 365c0ea6ca29d4443994cda038caca42, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 119
+  Script: {instanceID: 0}
+Assets:
+- Assets/Werewolf/StatusIndicators/Prefabs/Point/Chaos Aura.prefab
+Dependencies:
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/point/chaos
+  aura/pointbase_mat
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/point/chaos
+  aura/pointcrosshair_mat
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/point/chaos
+  aura/pointdeco_mat

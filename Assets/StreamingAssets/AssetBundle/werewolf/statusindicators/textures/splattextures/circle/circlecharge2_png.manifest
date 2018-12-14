@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3664299320
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8d490570d56c60d4f9907681a3159c6e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Werewolf/StatusIndicators/Textures/SplatTextures/Circle/CircleCharge2.png
+Dependencies: []

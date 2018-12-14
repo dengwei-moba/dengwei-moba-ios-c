@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 2995609220
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: db80e14753a4e44f1d15d3898373d6e5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 03c85b9baa6239d2ad581dd8500227b8
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: b0cb28807631d1b43b8e3ad9a6634336, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9a049984b85c8914cb37f312a6d0efae, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 119
+  Script: {instanceID: 0}
+Assets:
+- Assets/Werewolf/StatusIndicators/Prefabs/Status/Status Dots.prefab
+Dependencies:
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/status/statusdots_mat

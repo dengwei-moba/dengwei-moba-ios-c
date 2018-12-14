@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 4280664729
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6545595ce7757bf10d6d3d6228e06f03
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d1ae6e26fb0b4d11fccd18da598542fa
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Werewolf/StatusIndicators/Prefabs/Materials/SpellIndicators/Point/Fireball/PointCrosshair.mat
+Dependencies:
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/scripts/shaders/projectorholoradial_shader
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/textures/distorttextures/noise4_png
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/textures/splattextures/circle/circlecrosshair_png

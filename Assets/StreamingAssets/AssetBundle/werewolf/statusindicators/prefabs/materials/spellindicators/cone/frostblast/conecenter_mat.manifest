@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 1642278427
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7d5ed63a3f941589b1c799b54960830c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d1ae6e26fb0b4d11fccd18da598542fa
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Werewolf/StatusIndicators/Prefabs/Materials/SpellIndicators/Cone/FrostBlast/ConeCenter.mat
+Dependencies:
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/scripts/shaders/projectorlineardistortcolor_shader
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/textures/distorttextures/noise4_png
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/textures/splattextures/cone/conecenter_png

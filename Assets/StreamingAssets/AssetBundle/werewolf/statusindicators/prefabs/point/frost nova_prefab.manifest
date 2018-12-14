@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 4016567699
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 54d98cbcb34a0cc1e4357033e07892f5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d9408189211bcc6fc26cffbd489f28c2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6f5cc4314703fc047bf4796e2883a36c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c84e1651e0495114aa1991a1e21b6d28, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 139307d2589ef80408c48babe24a6f36, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 365c0ea6ca29d4443994cda038caca42, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 119
+  Script: {instanceID: 0}
+Assets:
+- Assets/Werewolf/StatusIndicators/Prefabs/Point/Frost Nova.prefab
+Dependencies:
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/range/frostnova/pointbase2_mat
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/range/frostnova/pointcharge2_mat
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/range/frostnova/pointdeco2_mat

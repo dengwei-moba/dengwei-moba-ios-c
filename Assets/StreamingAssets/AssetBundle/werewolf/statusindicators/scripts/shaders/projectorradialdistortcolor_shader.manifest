@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2063091889
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2041fb93ba370697d1d2cd837d9990ae
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cc7b69794a2bdada249e557ebbfded10
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Werewolf/StatusIndicators/Scripts/Shaders/ProjectorRadialDistortColor.shader
+Dependencies: []

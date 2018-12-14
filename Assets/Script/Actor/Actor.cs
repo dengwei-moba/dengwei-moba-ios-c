@@ -83,6 +83,11 @@ public abstract class Actor : TrueSyncBehaviour
     protected abstract void InitStateTransLimit();
 
     /// <summary>
+    /// 初始化技能相关
+    /// </summary>
+    protected abstract void InitSkill();
+
+    /// <summary>
     /// 初始化可能被频繁用到的预制体(因为常用,让他一直在内存里)
     /// </summary>
     protected abstract void InitWillUsedPrefabs();

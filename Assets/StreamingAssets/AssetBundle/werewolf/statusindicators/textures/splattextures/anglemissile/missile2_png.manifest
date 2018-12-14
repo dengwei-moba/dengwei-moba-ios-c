@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 592379372
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 59ac8d88a6aafa79b89a1db98815fef4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Werewolf/StatusIndicators/Textures/SplatTextures/AngleMissile/Missile2.png
+Dependencies: []

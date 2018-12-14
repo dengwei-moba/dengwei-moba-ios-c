@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2648705367
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 98b1c69c68481e6e97c396effc558174
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Werewolf/StatusIndicators/Textures/SplatTextures/Status/StatusBar6.png
+Dependencies: []

@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1950458162
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 54101d3b8fee5e6976ff4c41b54d8fd3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Werewolf/StatusIndicators/Textures/SplatTextures/Range/Range.png
+Dependencies: []

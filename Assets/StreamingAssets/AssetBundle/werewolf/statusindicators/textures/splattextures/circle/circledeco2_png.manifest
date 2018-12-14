@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1592250053
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 32c85226a9ae06b8464e4438c7f63bdb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Werewolf/StatusIndicators/Textures/SplatTextures/Circle/CircleDeco2.png
+Dependencies: []

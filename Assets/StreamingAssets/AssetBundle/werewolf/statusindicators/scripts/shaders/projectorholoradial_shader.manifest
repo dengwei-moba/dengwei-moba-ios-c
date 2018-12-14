@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 796848329
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 42478e3b26db106430df98b6c94359ab
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cc7b69794a2bdada249e557ebbfded10
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Werewolf/StatusIndicators/Scripts/Shaders/ProjectorHoloRadial.shader
+Dependencies: []

@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1729081664
+CRC: 1700267185
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: bd4eaa91d16eb2e79f9d6882869052c7
+    Hash: 68b780b1c6bdb4fba5712007782574a2
   TypeTreeHash:
     serializedVersion: 2
-    Hash: e9d6e93cd78a450fbfa2879eccc2c96d
+    Hash: a0fe15433451ece86ccc71f16f8fe498
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -46,4 +46,4 @@ ClassTypes:
 Assets:
 - Assets/Prefab/UI/NotifyView.prefab
 Dependencies:
-- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/textrue/bg_png
+- G:/sj/youyouzai-moba-ios/Assets/StreamingAssets/AssetBundle/textrue/bg_png

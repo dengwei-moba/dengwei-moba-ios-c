@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 4176610460
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 46af15f7b1bddae8a700e30b9da2eeaf
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Werewolf/StatusIndicators/Textures/DistortTextures/Noise1.png
+Dependencies: []

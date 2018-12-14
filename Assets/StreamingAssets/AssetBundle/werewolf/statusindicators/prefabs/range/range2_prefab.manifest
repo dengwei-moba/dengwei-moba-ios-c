@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 1570245282
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bd6e1a8b15b74559e915c1fb79e7d36d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4d341127c87d90a79f9c774fec68da09
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 55e2ff20a0687a54ca7f7cfd681db7ed, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6f5cc4314703fc047bf4796e2883a36c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c84e1651e0495114aa1991a1e21b6d28, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 119
+  Script: {instanceID: 0}
+Assets:
+- Assets/Werewolf/StatusIndicators/Prefabs/Range/Range2.prefab
+Dependencies:
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/range/range2_mat

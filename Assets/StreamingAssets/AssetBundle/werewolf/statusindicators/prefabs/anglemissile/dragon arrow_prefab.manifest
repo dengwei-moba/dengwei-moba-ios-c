@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 1305306186
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e2c28100315e237f0efd32fb476b9d86
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5fbd5e32104575d050494759e25e0b1e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 78139f65674743441a6030901129b4a8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 365c0ea6ca29d4443994cda038caca42, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 119
+  Script: {instanceID: 0}
+Assets:
+- Assets/Werewolf/StatusIndicators/Prefabs/AngleMissile/Dragon Arrow.prefab
+Dependencies:
+- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/anglemissile/magiccrossbow/crossbow_mat

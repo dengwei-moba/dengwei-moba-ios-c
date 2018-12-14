@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 594557377
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 24a1da34c49f730dd35c0ff8c6ff9781
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Werewolf/StatusIndicators/Textures/SplatTextures/Cone/ConeBorderL.png
+Dependencies: []

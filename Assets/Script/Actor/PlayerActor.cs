@@ -5,6 +5,7 @@ using LitJson;
 using UnityEngine;
 using Google.Protobuf;
 using TrueSync;
+using Werewolf.StatusIndicators.Components;
 
 /// <summary>
 /// 技能按钮操控类型
@@ -20,18 +21,20 @@ public enum SkillControlType
 public class PlayerActor : Actor
 {
     ETCJoystick joy_move;
-    protected SkillControlType SkillControlType_1 = SkillControlType.Joy_Angle;
+    protected SkillControlType SkillControlType_1;
     ETCJoystick joy_skill_1;
     ETCButton button_1;
-    protected SkillControlType SkillControlType_2 = SkillControlType.Joy_Angle;
+    protected SkillControlType SkillControlType_2;
     ETCJoystick joy_skill_2;
     ETCButton button_2;
-    protected SkillControlType SkillControlType_3 = SkillControlType.Joy_Angle;
+    protected SkillControlType SkillControlType_3;
     ETCJoystick joy_skill_3;
     ETCButton button_3;
-    protected SkillControlType SkillControlType_4 = SkillControlType.Button_KeyUp;
+    protected SkillControlType SkillControlType_4;
     //ETCJoystick joy_skill_4;
     ETCButton button_4;
+
+    public SplatManager splatManager;
     public GameObject[] WillUsedPrefabs; 
 
     protected override void InitStateMachine()
@@ -54,6 +57,26 @@ public class PlayerActor : Actor
     protected override void InitWillUsedPrefabs()
     {
 
+    }
+
+    protected override void InitSkill()
+    {
+        SkillControlType_1 = SkillControlType.Button_KeyUp;
+        SkillControlType_2 = SkillControlType.Joy_Angle;
+        SkillControlType_3 = SkillControlType.Joy_Angle;
+        SkillControlType_4 = SkillControlType.Button_KeyUp;
+        GameObject splat_1 = _AssetManager.GetGameObject("werewolf/statusindicators/prefabs/point/point basic_prefab");
+        splat_1.name = "Point";
+        splat_1.transform.SetParent(splatManager.transform);
+        GameObject splat_2 = _AssetManager.GetGameObject("werewolf/statusindicators/prefabs/linemissile/line missile basic 2_prefab");
+        splat_2.name = "Line";
+        splat_2.transform.SetParent(splatManager.transform);
+        GameObject splat_3 = _AssetManager.GetGameObject("werewolf/statusindicators/prefabs/status/status dots_prefab");
+        splat_3.name = "Status";
+        splat_3.transform.SetParent(splatManager.transform);
+        GameObject splat_4 = _AssetManager.GetGameObject("werewolf/statusindicators/prefabs/range/rangebasic_prefab");
+        splat_4.name = "Range";
+        splat_4.transform.SetParent(splatManager.transform);
     }
     //==========================处理网络数据开始=============================================================
     public override void PlayerInputHandle(PB_ClientInput input)
@@ -164,6 +187,9 @@ public class PlayerActor : Actor
             return;
         }
         mCamera.enabled = true;
+        splatManager = ActorObj.AddComponent<SplatManager>();
+        InitSkill();
+        splatManager.AutoInit();
         joy_move = GameObject.Find("Joystick_move").GetComponent<ETCJoystick>();
         joy_skill_1 = GameObject.Find("Joystick_skill_1").GetComponent<ETCJoystick>();
         button_1 = GameObject.Find("ETCButton_1").GetComponent<ETCButton>();
@@ -329,12 +355,16 @@ public class PlayerActor : Actor
     //===========================================================================
     void onUp_Skill_1()
     {
+        splatManager.CancelSpellIndicator();
+        splatManager.CancelRangeIndicator();
+        splatManager.CancelStatusIndicator();
         Debug.LogErrorFormat("onUp_Skill_1==========>{0}", SkillControlType_1);
         if (SkillControlType_1 == SkillControlType.Button_KeyUp)
             _UdpSendManager.SendInputSkill(1, InputType.KeyUp);
     }
     void onDown_Skill_1()
     {
+        splatManager.SelectStatusIndicator("Status");
         Debug.LogErrorFormat("onDown_Skill_1==========>{0}", SkillControlType_1);
         if (SkillControlType_1 == SkillControlType.Button_KeyDown)
             _UdpSendManager.SendInputSkill(1, InputType.KeyDown);
@@ -346,7 +376,6 @@ public class PlayerActor : Actor
     void MoveCallBack_Skill_1(Vector2 tVec2)
     {
         Debug.LogErrorFormat("MoveCallBack_Skill_1==========>{0}", tVec2);
-        pengzhuanfaxiangliang1.transform.rotation = TSQuaternion.LookRotation(new TSVector(tVec2.x, 0, tVec2.y)).ToQuaternion();
     }
     void EndMoveCallBack_Skill_1()
     {
@@ -366,13 +395,20 @@ public class PlayerActor : Actor
     void StartMoveCallBack_Skill_2()
     {
         Debug.LogErrorFormat("StartMoveCallBack_Skill_2==========>");
+        splatManager.SelectSpellIndicator("Point");
     }
     void MoveCallBack_Skill_2(Vector2 tVec2)
     {
+        SpellIndicator mCone = splatManager.GetSpellIndicator("Point");
+        mCone.JoystickVector = new Vector3(tVec2.x, 0, tVec2.y);
         Debug.LogErrorFormat("MoveCallBack_Skill_2==========>{0}", tVec2);
     }
     void EndMoveCallBack_Skill_2()
     {
+        SpellIndicator mCone = splatManager.GetSpellIndicator("Point");
+        splatManager.CancelSpellIndicator();
+        splatManager.CancelRangeIndicator();
+        splatManager.CancelStatusIndicator();
         Debug.LogErrorFormat("EndMoveCallBack_Skill_2==========>");
     }
     //===========================================================================
@@ -388,24 +424,34 @@ public class PlayerActor : Actor
     }
     void StartMoveCallBack_Skill_3()
     {
+        splatManager.SelectSpellIndicator("Line");
         Debug.LogErrorFormat("StartMoveCallBack_Skill_3==========>");
     }
     void MoveCallBack_Skill_3(Vector2 tVec2)
     {
+        SpellIndicator mCone = splatManager.GetSpellIndicator("Line");
+        mCone.JoystickVector = new Vector3(tVec2.x, 0, tVec2.y);
         Debug.LogErrorFormat("MoveCallBack_Skill_3==========>{0}", tVec2);
     }
     void EndMoveCallBack_Skill_3()
     {
+        splatManager.CancelSpellIndicator();
+        splatManager.CancelRangeIndicator();
+        splatManager.CancelStatusIndicator();
         Debug.LogErrorFormat("EndMoveCallBack_Skill_3==========>");
     }
     //===========================================================================
     void onUp_Skill_4()
     {
+        splatManager.CancelSpellIndicator();
+        splatManager.CancelRangeIndicator();
+        splatManager.CancelStatusIndicator();
         if (SkillControlType_4 == SkillControlType.Button_KeyUp)
             _UdpSendManager.SendInputSkill(4, InputType.KeyUp);
     }
     void onDown_Skill_4()
     {
+        splatManager.SelectRangeIndicator("Range");
         if (SkillControlType_4 == SkillControlType.Button_KeyDown)
             _UdpSendManager.SendInputSkill(4, InputType.KeyDown);
     }

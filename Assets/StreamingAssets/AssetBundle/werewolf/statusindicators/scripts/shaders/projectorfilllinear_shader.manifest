@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 765356994
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8b1e04af84d6de5e5c3175ce2e5de6b5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cc7b69794a2bdada249e557ebbfded10
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Werewolf/StatusIndicators/Scripts/Shaders/ProjectorFillLinear.shader
+Dependencies: []
