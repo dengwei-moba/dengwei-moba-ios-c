@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1584239948
+CRC: 1890958429
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7bbfacde44bb2322a1aeefad55598229
+    Hash: 022efb464de313824423b773fd79b4b3
   TypeTreeHash:
     serializedVersion: 2
-    Hash: d1ae6e26fb0b4d11fccd18da598542fa
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
 HashAppended: 0
 ClassTypes:
 - Class: 21
@@ -18,5 +18,5 @@ ClassTypes:
 Assets:
 - Assets/Prefab/Build/Stone King  Unity 4.1.5/Outpost/Materials/StoneKing.mat
 Dependencies:
-- G:/sj/youyouzai-moba-ios/Assets/StreamingAssets/AssetBundle/prefab/build/stone king  unity
-  4_1_5/outpost/textures/stoneking_tga
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/build/stone
+  king  unity 4_1_5/outpost/textures/stoneking_tga

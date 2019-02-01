@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3212931743
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1ab876c28b1eecf5ddda90bd1dd8f10a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Effect/Magical/Sources/Materials/Electric.mat
+Dependencies:
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/textures/electricle_png

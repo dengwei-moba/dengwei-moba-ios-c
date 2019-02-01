@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 2937734630
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d09d4a29b43e3f9d79e1c40ac04fc053
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8d7814331df6590d992044f204a74e6a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: d8561a4124465f743903b76d8cf232a9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9f371a88b108eee4d91b2708a9313b13, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df3e4ecc2c78eaa409dad488c230d65d, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Effect/Bullet/houyi_pengzhuang.prefab
+Dependencies: []

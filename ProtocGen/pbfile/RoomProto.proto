@@ -83,11 +83,12 @@ enum InputType
 message PB_ClientInput
 {
 	InputType InputType		= 1;	//
-	int32 Angle_X			= 2;	//InputType_MOVE_ANGLE时
-	int32 Angle_Y			= 3;	//InputType_MOVE_ANGLE时
+	int32 Angle_X			= 2;	//InputType_MOVE_ANGLE,InputType_KEY_ANGLE时
+	int32 Angle_Y			= 3;	//
 	int32 Key				= 4;	//
-	int32 Pos_X				= 5;	//
+	int32 Pos_X				= 5;	//InputType_CLICK_XY时
 	int32 Pos_Y				= 6;	//
+	int32 TargetID			= 7;	//目标ID
 }
 	
 //C2S_INPUT_INFO 客户端输入
@@ -98,7 +99,7 @@ message PB_C2SClientInput
 
 message PB_PlayerFrame
 {
-	uint32 index			= 1;	//玩家INDEX
+	int32 index			= 1;	//玩家INDEX
 	PB_ClientInput input	= 2;	//玩家输入
 }
 

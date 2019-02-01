@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 2403984982
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9bc1c11238a1a8848c74a8389d310acc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 17e3345ae92a222b361a7b2b9b47ce58
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Effect/Magical/FX/Component/Fire_Simple.prefab
+Dependencies:
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/materials/flak1_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/materials/fire1_mat

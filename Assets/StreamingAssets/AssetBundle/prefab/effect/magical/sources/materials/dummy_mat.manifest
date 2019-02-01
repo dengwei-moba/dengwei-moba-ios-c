@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 4032376632
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a7ccecae4d114197b52335c65a3a0a98
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 51a16e16d5113854a16091e54ae5bb0d
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Effect/Magical/Sources/Materials/Dummy.mat
+Dependencies: []

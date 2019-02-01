@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 1374824194
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4cd60b659a731819f4bf4c6d7b157d6f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 61b63d61c0b3376cda3d8432ae1d6d5f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: c879c3d18edf0964aadef45fd9e38697, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Effect/Magical/FX/Earth_Wall.prefab
+Dependencies:
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/fx/earth_fissure_prefab

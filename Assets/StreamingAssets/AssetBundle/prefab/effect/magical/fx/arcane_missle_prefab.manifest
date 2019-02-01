@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+CRC: 727423389
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3aa3e34ddbde0e95a1b4825ce26f895a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 26f16d98193fa7568690b158cdc2e138
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b2d6ee4de32ca747bd27eb53657655a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: aea3c196ff927664fac017e6ff812a54, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 49ffe117472f28a42ae488a517f0f3ab, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 99f7dd29227cf224eb83f39b0139033a, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Effect/Magical/FX/Arcane_Missle.prefab
+Dependencies:
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/materials/magic_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/fx/component/fire_flash_prefab
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/fx/component/arcane_explosion_prefab
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/materials/fire2_mat

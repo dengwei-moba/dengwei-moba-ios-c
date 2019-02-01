@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 85541885
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2a0b082a6e153e09c9bc768b123e1ce3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Effect/Magical/Sources/Textures/ring4.png
+Dependencies: []

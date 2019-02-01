@@ -102,7 +102,7 @@ message PB_MatchTeamFight_FMS2GS2C
 message PB_FightPlayerInfo
 {
 	uint64 pid =1;			//游戏服ID
-	uint32 playeridx = 2;	//战斗房间服临时分配ID
+	int32 playeridx = 2;	//战斗房间服临时分配ID
 	string hellokey = 3;	//认证合法性的密钥
 	string name = 4;
 	int32 ChooseHero = 5;	//本局选择的英雄

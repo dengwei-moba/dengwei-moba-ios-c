@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2653641675
+CRC: 444581167
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9f9a2330b1ef8c40e60b6f8b1cc7fd65
+    Hash: 533ce9a270cd2a87081896502a3e89c9
   TypeTreeHash:
     serializedVersion: 2
-    Hash: d1ae6e26fb0b4d11fccd18da598542fa
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
 HashAppended: 0
 ClassTypes:
 - Class: 21
@@ -18,4 +18,4 @@ ClassTypes:
 Assets:
 - Assets/Prefab/Scene/5V5/LOM/Res/Map/DivineArena/Materials/GrassTile.mat
 Dependencies:
-- G:/sj/youyouzai-moba-ios/Assets/StreamingAssets/AssetBundle/prefab/scene/5v5/lom/res/map/divinearena/textures/grasstile_png
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/scene/5v5/lom/res/map/divinearena/textures/grasstile_png

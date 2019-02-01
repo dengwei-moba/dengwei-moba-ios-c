@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TrueSync;
 
 public class Pool
 {
@@ -62,6 +63,20 @@ public class Pool
             return null;
         }
     }
+
+	public GameObject Pop(string tName, TSVector position, TSQuaternion rotation)
+	{
+		PoolItem item = null;
+		if (mPoolDic.TryGetValue(tName, out item))
+		{
+			return item.Pop(position, rotation);
+		}
+		else
+		{
+			Debug.Log("获取对象失败，对象池未注册该对象");
+			return null;
+		}
+	}
 
     public void Push(string tName, GameObject tObj)
     {

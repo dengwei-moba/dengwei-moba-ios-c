@@ -1,0 +1,52 @@
+ManifestFileVersion: 0
+CRC: 1566480209
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 544989b4fe5f3778f1bac9c7f8f4d0c7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 03ec353d810020662c89d6862eb72aed
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: aea3c196ff927664fac017e6ff812a54, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 49ffe117472f28a42ae488a517f0f3ab, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 99f7dd29227cf224eb83f39b0139033a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2b0f0be930c1c584d8fbe7a70f22813f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Effect/Magical/FX/Ice_Hammer.prefab
+Dependencies:
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/fx/component/ice_explosion_prefab
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/materials/lightingcloud_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/materials/flak1_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/materials/no
+  name_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/materials/electric_mat

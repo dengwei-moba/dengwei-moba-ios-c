@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1827679286
+CRC: 3924044287
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 3d5752d244fc68580db40f3d606840ea
+    Hash: fda05f971b61a0a229bbe69ffb56fab3
   TypeTreeHash:
     serializedVersion: 2
-    Hash: d1ae6e26fb0b4d11fccd18da598542fa
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
 HashAppended: 0
 ClassTypes:
 - Class: 21
@@ -18,5 +18,5 @@ ClassTypes:
 Assets:
 - Assets/Prefab/Build/Stone King  Unity 4.1.5/Outpost/Materials/floor.mat
 Dependencies:
-- G:/sj/youyouzai-moba-ios/Assets/StreamingAssets/AssetBundle/prefab/build/stone king  unity
-  4_1_5/outpost/textures/floor_png
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/build/stone
+  king  unity 4_1_5/outpost/textures/floor_png

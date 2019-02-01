@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 4043635777
+CRC: 2523116547
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d5c21fe930a72637096dd3128566f653
+    Hash: bc476bea83b5b381f57023f348ff29c4
   TypeTreeHash:
     serializedVersion: 2
-    Hash: d1ae6e26fb0b4d11fccd18da598542fa
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
 HashAppended: 0
 ClassTypes:
 - Class: 21
@@ -18,5 +18,5 @@ ClassTypes:
 Assets:
 - Assets/Werewolf/StatusIndicators/Prefabs/Materials/Status/StatusChargeExample.mat
 Dependencies:
-- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/scripts/shaders/projectorfillradial_shader
-- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/textures/splattextures/status/statusbar4_png
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/textures/splattextures/status/statusbar4_png
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/scripts/shaders/projectorfillradial_shader

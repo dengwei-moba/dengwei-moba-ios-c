@@ -19,7 +19,7 @@ public class ETCJoystick : ETCBase,IPointerEnterHandler,IDragHandler, IBeginDrag
 	[System.Serializable] public class OnMoveStartHandler : UnityEvent{}
 	[System.Serializable] public class OnMoveSpeedHandler : UnityEvent<Vector2> { }
 	[System.Serializable] public class OnMoveHandler : UnityEvent<Vector2> { }
-	[System.Serializable] public class OnMoveEndHandler : UnityEvent{ }
+	[System.Serializable] public class OnMoveEndHandler : UnityEvent<Vector2>{ }	//DV 结束时候传结束时候的位置:PointerEventData.position
 
 	[System.Serializable] public class OnTouchStartHandler : UnityEvent{}
 	[System.Serializable] public class OnTouchUpHandler : UnityEvent{ }
@@ -216,11 +216,12 @@ public class ETCJoystick : ETCBase,IPointerEnterHandler,IDragHandler, IBeginDrag
 		axisY.axisState = ETCAxis.AxisState.None;
 	
 		if (!axisX.isEnertia && !axisY.isEnertia){
+			//Debug.LogWarningFormat("onMoveEnd====>{0}==>{1}", eventData.position.ToString(), eventData.pressPosition.ToString());
 			axisX.ResetAxis();
 			axisY.ResetAxis();
 			tmpAxis = Vector2.zero;
 			OldTmpAxis = Vector2.zero;
-			onMoveEnd.Invoke();
+			onMoveEnd.Invoke(eventData.position);
 		}
 
 		if (joystickType == JoystickType.Dynamic){
@@ -318,7 +319,7 @@ public class ETCJoystick : ETCBase,IPointerEnterHandler,IDragHandler, IBeginDrag
 			onMoveSpeed.Invoke( new Vector2(axisX.axisSpeedValue,axisY.axisSpeedValue));
 		}
 		else if (axisX.axisValue==0 &&  axisY.axisValue==0  && OldTmpAxis!=Vector2.zero) {
-			onMoveEnd.Invoke();
+			onMoveEnd.Invoke(Vector2.zero);
 		}
 		#endregion
 

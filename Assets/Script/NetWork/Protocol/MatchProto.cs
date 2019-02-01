@@ -46,7 +46,7 @@ namespace Google.Protobuf {
             "Y3BvcnQYBSABKA0SEQoJZnJzMmNob3N0GAYgASgJEjgKC3BsYXllcnNkYXRh",
             "GAcgAygLMiMuR29vZ2xlLlByb3RvYnVmLlBCX0ZpZ2h0UGxheWVySW5mbxIM",
             "CgRzZWVkGAggASgFEgsKA2ZwcxgJIAEoBSJoChJQQl9GaWdodFBsYXllcklu",
-            "Zm8SCwoDcGlkGAEgASgEEhEKCXBsYXllcmlkeBgCIAEoDRIQCghoZWxsb2tl",
+            "Zm8SCwoDcGlkGAEgASgEEhEKCXBsYXllcmlkeBgCIAEoBRIQCghoZWxsb2tl",
             "eRgDIAEoCRIMCgRuYW1lGAQgASgJEhIKCkNob29zZUhlcm8YBSABKAUq0wEK",
             "Ck1hdGNoTXNnSUQSFgoSQzJHUzJGTVNfTUFUQ0hfQUREEAASFgoSRk1TMkdT",
             "MkNfTUFUQ0hfQUREEAESFgoSQzJHUzJGTVNfTUFUQ0hfREVMEAISFgoSRk1T",
@@ -2086,12 +2086,12 @@ namespace Google.Protobuf {
 
     /// <summary>Field number for the "playeridx" field.</summary>
     public const int PlayeridxFieldNumber = 2;
-    private uint playeridx_;
+    private int playeridx_;
     /// <summary>
     /// 战斗房间服临时分配ID
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public uint Playeridx {
+    public int Playeridx {
       get { return playeridx_; }
       set {
         playeridx_ = value;
@@ -2182,7 +2182,7 @@ namespace Google.Protobuf {
       }
       if (Playeridx != 0) {
         output.WriteRawTag(16);
-        output.WriteUInt32(Playeridx);
+        output.WriteInt32(Playeridx);
       }
       if (Hellokey.Length != 0) {
         output.WriteRawTag(26);
@@ -2205,7 +2205,7 @@ namespace Google.Protobuf {
         size += 1 + pb::CodedOutputStream.ComputeUInt64Size(Pid);
       }
       if (Playeridx != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Playeridx);
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Playeridx);
       }
       if (Hellokey.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Hellokey);
@@ -2254,7 +2254,7 @@ namespace Google.Protobuf {
             break;
           }
           case 16: {
-            Playeridx = input.ReadUInt32();
+            Playeridx = input.ReadInt32();
             break;
           }
           case 26: {

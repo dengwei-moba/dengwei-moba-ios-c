@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3411652678
+CRC: 2782644730
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: da0b4b78abc245b4f51afd44c8a78444
+    Hash: 50f58487221f63fa8d28b0589279c6d6
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 547b5cf38114f4e2a70c29fe36966f39
+    Hash: b3f0bc69223173083f07305f83940deb
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -21,16 +21,15 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 43
   Script: {instanceID: 0}
-- Class: 48
-  Script: {instanceID: 0}
-- Class: 114
-  Script: {fileID: 11500000, guid: d8561a4124465f743903b76d8cf232a9, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 9f371a88b108eee4d91b2708a9313b13, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: df3e4ecc2c78eaa409dad488c230d65d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c4c7bd8f1459c9546b38fea6d5368cd9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e4aa81af62745f479108af638d05570, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 Assets:
 - Assets/Prefab/Effect/Bullet/houyiBullet.prefab
-Dependencies: []
+Dependencies:
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/hero/houyi/hero_houyi_mat

@@ -115,4 +115,17 @@ public class ScriptBase : MonoBehaviour
             return mHUDFPS;
         }
     }
+
+	static private Camera mFightCamera;
+	static public Camera _FightCamera
+	{
+		set
+		{
+			mFightCamera = value;
+		}
+		get
+		{
+			return mFightCamera;
+		}
+	}
 }

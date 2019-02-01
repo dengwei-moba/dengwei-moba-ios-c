@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 3384668570
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e4eaa207fc6b122d3058bb82d0bd9777
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 678d958c3508777b2cbe326be054a370
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2b0f0be930c1c584d8fbe7a70f22813f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Effect/Magical/FX/Component/FireCycle.prefab
+Dependencies:
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/materials/flak1_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/materials/lineup_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/materials/fire1_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/materials/flak2_mat

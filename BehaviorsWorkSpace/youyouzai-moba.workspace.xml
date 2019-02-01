@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<workspace name="youyouzai-moba" folder="behaviors" export="..\Assets\Resources\BehaviorsExported" language="cs" useintvalue="true" version="3">
+  <export>
+    <cs>
+      <isexported>True</isexported>
+      <exportfilecount>1</exportfilecount>
+      <folder>../../Assets/Script/Behaviors</folder>
+    </cs>
+    <bson>
+      <isexported>True</isexported>
+    </bson>
+  </export>
+</workspace>

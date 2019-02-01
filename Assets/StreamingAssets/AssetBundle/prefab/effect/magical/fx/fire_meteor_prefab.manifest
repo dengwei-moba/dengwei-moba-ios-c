@@ -1,0 +1,57 @@
+ManifestFileVersion: 0
+CRC: 2139276837
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ac3fddf84f208566fc656eb9ac7c28b0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ce45da7fc8bcfd882444a0e32d9644ec
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4b69c254cd7aac34cae94e53410c6ba9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: aea3c196ff927664fac017e6ff812a54, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d9c26fd6639e21a438e96471ee756f52, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 49ffe117472f28a42ae488a517f0f3ab, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6abd900d106201b4fb1e780b626ff25b, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Effect/Magical/FX/Fire_Meteor.prefab
+Dependencies:
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/fx/component/fire_meteorexplosion_prefab
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/materials/flak1_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/fx/fire_groundexplosion_prefab
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/materials/no
+  name_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/materials/flak3_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/materials/lavarock_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/materials/fire1_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/materials/smoke_mat

@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 237834645
+CRC: 818085672
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1a54aa5377c88b68be9f471959e2c8d9
+    Hash: 1b217b547da0bf3b2868c36af4fd26c2
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 8694150980e875d43869645fe681422e
+    Hash: 80455d2eaa1ee3c566d9460d45110d8e
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,4 +42,4 @@ ClassTypes:
 Assets:
 - Assets/Prefab/Hero/houyi/houyi.prefab
 Dependencies:
-- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/prefab/hero/houyi/hero_houyi_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/hero/houyi/hero_houyi_mat

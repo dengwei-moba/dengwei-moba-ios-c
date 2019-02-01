@@ -1,0 +1,42 @@
+ManifestFileVersion: 0
+CRC: 1498748631
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 239cf4203f45ccd31d74f3cb8a125022
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 05156ef3fb890b4d26a27144aedbc958
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: d8561a4124465f743903b76d8cf232a9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df3e4ecc2c78eaa409dad488c230d65d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c4c7bd8f1459c9546b38fea6d5368cd9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ec1a367e1bc23f140b4259aa6ea56d65, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Monsters/YeGuai.prefab
+Dependencies: []

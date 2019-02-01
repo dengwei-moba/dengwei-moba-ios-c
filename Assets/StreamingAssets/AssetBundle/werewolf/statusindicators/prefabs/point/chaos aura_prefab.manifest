@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 4180812751
+CRC: 72317913
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 388aa359553ef007f214a0e90230acf7
+    Hash: eda08d16569c2c40a996ec4bde568be1
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 616561a6e7b34ae36b8960613dc3ae3a
+    Hash: a43e77d0e3367c72e5e5e27eca32e8f3
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -28,9 +28,9 @@ ClassTypes:
 Assets:
 - Assets/Werewolf/StatusIndicators/Prefabs/Point/Chaos Aura.prefab
 Dependencies:
-- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/point/chaos
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/point/chaos
   aura/pointbase_mat
-- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/point/chaos
-  aura/pointcrosshair_mat
-- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/point/chaos
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/point/chaos
   aura/pointdeco_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/point/chaos
+  aura/pointcrosshair_mat

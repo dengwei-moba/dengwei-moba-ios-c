@@ -31,25 +31,25 @@ namespace Google.Protobuf {
             "ZCISChBQQl9TMkNGaWdodFN0YXJ0IhEKD1BCX0MyU0ZpZ2h0U091dCIfCg9Q",
             "Ql9Mb2FkaW5nQWdhaW4SDAoEdHlwZRgBIAEoDSI0Cg9QQl9DMlNGaWdodFNF",
             "bmQSDQoFaXN3aW4YASABKAgSEgoKcmVzdWx0ZmxhZxgCIAEoDSIeCg9QQl9T",
-            "MkNGaWdodFNFbmQSCwoDZXhwGAEgASgNIowBCg5QQl9DbGllbnRJbnB1dBIt",
+            "MkNGaWdodFNFbmQSCwoDZXhwGAEgASgNIp4BCg5QQl9DbGllbnRJbnB1dBIt",
             "CglJbnB1dFR5cGUYASABKA4yGi5Hb29nbGUuUHJvdG9idWYuSW5wdXRUeXBl",
             "Eg8KB0FuZ2xlX1gYAiABKAUSDwoHQW5nbGVfWRgDIAEoBRILCgNLZXkYBCAB",
-            "KAUSDQoFUG9zX1gYBSABKAUSDQoFUG9zX1kYBiABKAUiRAoRUEJfQzJTQ2xp",
-            "ZW50SW5wdXQSLwoGaW5wdXRzGAEgAygLMh8uR29vZ2xlLlByb3RvYnVmLlBC",
-            "X0NsaWVudElucHV0Ik8KDlBCX1BsYXllckZyYW1lEg0KBWluZGV4GAEgASgN",
-            "Ei4KBWlucHV0GAIgASgLMh8uR29vZ2xlLlByb3RvYnVmLlBCX0NsaWVudElu",
-            "cHV0IlQKDFBCX0ZyYW1lSW5mbxITCgtmcmFtZV9pbmRleBgBIAEoDRIvCgZp",
-            "bnB1dHMYAiADKAsyHy5Hb29nbGUuUHJvdG9idWYuUEJfUGxheWVyRnJhbWUq",
-            "nQEKEExvYWRpbmdBZ2FpblR5cGUSGQoVTG9hZGluZ0FnYWluVHlwZV9OT05F",
-            "EAASGwoXQzJTX0xPQURJTkdfQUdBSU5fU1RBUlQQARIbChdTMkNfTE9BRElO",
-            "R19BR0FJTl9TVEFSVBACEhkKFUMyU19MT0FESU5HX0FHQUlOX0VORBADEhkK",
-            "FVMyQ19MT0FESU5HX0FHQUlOX0VORBAEKoQCCglJbnB1dFR5cGUSEgoOSW5w",
-            "dXRUeXBlX05PTkUQABIYChRJbnB1dFR5cGVfTU9WRV9TVEFSVBABEhgKFElu",
-            "cHV0VHlwZV9NT1ZFX0FOR0xFEAISFgoSSW5wdXRUeXBlX01PVkVfRU5EEAMS",
-            "FgoSSW5wdXRUeXBlX0tFWV9ET1dOEAQSFAoQSW5wdXRUeXBlX0tFWV9VUBAF",
-            "EhwKGElucHV0VHlwZV9LRVlfTE9OR19TVEFSVBAGEhoKFklucHV0VHlwZV9L",
-            "RVlfTE9OR19FTkQQBxIXChNJbnB1dFR5cGVfS0VZX0FOR0xFEAgSFgoSSW5w",
-            "dXRUeXBlX0NMSUNLX1hZEAliBnByb3RvMw=="));
+            "KAUSDQoFUG9zX1gYBSABKAUSDQoFUG9zX1kYBiABKAUSEAoIVGFyZ2V0SUQY",
+            "ByABKAUiRAoRUEJfQzJTQ2xpZW50SW5wdXQSLwoGaW5wdXRzGAEgAygLMh8u",
+            "R29vZ2xlLlByb3RvYnVmLlBCX0NsaWVudElucHV0Ik8KDlBCX1BsYXllckZy",
+            "YW1lEg0KBWluZGV4GAEgASgFEi4KBWlucHV0GAIgASgLMh8uR29vZ2xlLlBy",
+            "b3RvYnVmLlBCX0NsaWVudElucHV0IlQKDFBCX0ZyYW1lSW5mbxITCgtmcmFt",
+            "ZV9pbmRleBgBIAEoDRIvCgZpbnB1dHMYAiADKAsyHy5Hb29nbGUuUHJvdG9i",
+            "dWYuUEJfUGxheWVyRnJhbWUqnQEKEExvYWRpbmdBZ2FpblR5cGUSGQoVTG9h",
+            "ZGluZ0FnYWluVHlwZV9OT05FEAASGwoXQzJTX0xPQURJTkdfQUdBSU5fU1RB",
+            "UlQQARIbChdTMkNfTE9BRElOR19BR0FJTl9TVEFSVBACEhkKFUMyU19MT0FE",
+            "SU5HX0FHQUlOX0VORBADEhkKFVMyQ19MT0FESU5HX0FHQUlOX0VORBAEKoQC",
+            "CglJbnB1dFR5cGUSEgoOSW5wdXRUeXBlX05PTkUQABIYChRJbnB1dFR5cGVf",
+            "TU9WRV9TVEFSVBABEhgKFElucHV0VHlwZV9NT1ZFX0FOR0xFEAISFgoSSW5w",
+            "dXRUeXBlX01PVkVfRU5EEAMSFgoSSW5wdXRUeXBlX0tFWV9ET1dOEAQSFAoQ",
+            "SW5wdXRUeXBlX0tFWV9VUBAFEhwKGElucHV0VHlwZV9LRVlfTE9OR19TVEFS",
+            "VBAGEhoKFklucHV0VHlwZV9LRVlfTE9OR19FTkQQBxIXChNJbnB1dFR5cGVf",
+            "S0VZX0FOR0xFEAgSFgoSSW5wdXRUeXBlX0NMSUNLX1hZEAliBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Google.Protobuf.LoadingAgainType), typeof(global::Google.Protobuf.InputType), }, new pbr::GeneratedClrTypeInfo[] {
@@ -61,7 +61,7 @@ namespace Google.Protobuf {
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Protobuf.PB_LoadingAgain), global::Google.Protobuf.PB_LoadingAgain.Parser, new[]{ "Type" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Protobuf.PB_C2SFightSEnd), global::Google.Protobuf.PB_C2SFightSEnd.Parser, new[]{ "Iswin", "Resultflag" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Protobuf.PB_S2CFightSEnd), global::Google.Protobuf.PB_S2CFightSEnd.Parser, new[]{ "Exp" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Protobuf.PB_ClientInput), global::Google.Protobuf.PB_ClientInput.Parser, new[]{ "InputType", "AngleX", "AngleY", "Key", "PosX", "PosY" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Protobuf.PB_ClientInput), global::Google.Protobuf.PB_ClientInput.Parser, new[]{ "InputType", "AngleX", "AngleY", "Key", "PosX", "PosY", "TargetID" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Protobuf.PB_C2SClientInput), global::Google.Protobuf.PB_C2SClientInput.Parser, new[]{ "Inputs" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Protobuf.PB_PlayerFrame), global::Google.Protobuf.PB_PlayerFrame.Parser, new[]{ "Index", "Input" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Protobuf.PB_FrameInfo), global::Google.Protobuf.PB_FrameInfo.Parser, new[]{ "FrameIndex", "Inputs" }, null, null, null)
@@ -1252,6 +1252,7 @@ namespace Google.Protobuf {
       key_ = other.key_;
       posX_ = other.posX_;
       posY_ = other.posY_;
+      targetID_ = other.targetID_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1277,7 +1278,7 @@ namespace Google.Protobuf {
     public const int AngleXFieldNumber = 2;
     private int angleX_;
     /// <summary>
-    ///InputType_MOVE_ANGLE时
+    ///InputType_MOVE_ANGLE,InputType_KEY_ANGLE时
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int AngleX {
@@ -1291,7 +1292,6 @@ namespace Google.Protobuf {
     public const int AngleYFieldNumber = 3;
     private int angleY_;
     /// <summary>
-    ///InputType_MOVE_ANGLE时
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int AngleY {
@@ -1318,6 +1318,7 @@ namespace Google.Protobuf {
     public const int PosXFieldNumber = 5;
     private int posX_;
     /// <summary>
+    ///InputType_CLICK_XY时
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int PosX {
@@ -1340,6 +1341,20 @@ namespace Google.Protobuf {
       }
     }
 
+    /// <summary>Field number for the "TargetID" field.</summary>
+    public const int TargetIDFieldNumber = 7;
+    private int targetID_;
+    /// <summary>
+    ///目标ID
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int TargetID {
+      get { return targetID_; }
+      set {
+        targetID_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as PB_ClientInput);
@@ -1359,6 +1374,7 @@ namespace Google.Protobuf {
       if (Key != other.Key) return false;
       if (PosX != other.PosX) return false;
       if (PosY != other.PosY) return false;
+      if (TargetID != other.TargetID) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1371,6 +1387,7 @@ namespace Google.Protobuf {
       if (Key != 0) hash ^= Key.GetHashCode();
       if (PosX != 0) hash ^= PosX.GetHashCode();
       if (PosY != 0) hash ^= PosY.GetHashCode();
+      if (TargetID != 0) hash ^= TargetID.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1408,6 +1425,10 @@ namespace Google.Protobuf {
         output.WriteRawTag(48);
         output.WriteInt32(PosY);
       }
+      if (TargetID != 0) {
+        output.WriteRawTag(56);
+        output.WriteInt32(TargetID);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1433,6 +1454,9 @@ namespace Google.Protobuf {
       }
       if (PosY != 0) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(PosY);
+      }
+      if (TargetID != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(TargetID);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1462,6 +1486,9 @@ namespace Google.Protobuf {
       }
       if (other.PosY != 0) {
         PosY = other.PosY;
+      }
+      if (other.TargetID != 0) {
+        TargetID = other.TargetID;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1496,6 +1523,10 @@ namespace Google.Protobuf {
           }
           case 48: {
             PosY = input.ReadInt32();
+            break;
+          }
+          case 56: {
+            TargetID = input.ReadInt32();
             break;
           }
         }
@@ -1668,12 +1699,12 @@ namespace Google.Protobuf {
 
     /// <summary>Field number for the "index" field.</summary>
     public const int IndexFieldNumber = 1;
-    private uint index_;
+    private int index_;
     /// <summary>
     ///玩家INDEX
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public uint Index {
+    public int Index {
       get { return index_; }
       set {
         index_ = value;
@@ -1732,7 +1763,7 @@ namespace Google.Protobuf {
     public void WriteTo(pb::CodedOutputStream output) {
       if (Index != 0) {
         output.WriteRawTag(8);
-        output.WriteUInt32(Index);
+        output.WriteInt32(Index);
       }
       if (input_ != null) {
         output.WriteRawTag(18);
@@ -1747,7 +1778,7 @@ namespace Google.Protobuf {
     public int CalculateSize() {
       int size = 0;
       if (Index != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Index);
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Index);
       }
       if (input_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Input);
@@ -1784,7 +1815,7 @@ namespace Google.Protobuf {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            Index = input.ReadUInt32();
+            Index = input.ReadInt32();
             break;
           }
           case 18: {

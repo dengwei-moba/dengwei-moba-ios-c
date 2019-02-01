@@ -1438,7 +1438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4c7bd8f1459c9546b38fea6d5368cd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _isTrigger: 0
+  _isTrigger: 1
   tsMaterial: {fileID: 0}
   center:
     x:
@@ -1590,6 +1590,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ownerIndex: -1
+  OwnerID: 0
+  OwnerCamp: 1
+  mActerType: 1
   owner:
     id: 0
     name: 
@@ -1597,6 +1600,7 @@ MonoBehaviour:
   pengzhuanfaxiangliang1: {fileID: 0}
   pengzhuanfaxiangliang2: {fileID: 0}
   pengzhuanfaxiangliang3: {fileID: 0}
+  splatManager: {fileID: 0}
   WillUsedPrefabs: []
 --- !u!114 &114965284327876468
 MonoBehaviour:

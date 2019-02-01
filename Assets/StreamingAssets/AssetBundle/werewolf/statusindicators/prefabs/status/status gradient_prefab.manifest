@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2528850970
+CRC: 3327005432
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 60f5f330c630efc4bc81713e717607d9
+    Hash: d218c5dafe1a055371e0f5f191c3592c
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 03c85b9baa6239d2ad581dd8500227b8
+    Hash: cea39e6113895ffc6d6827f3d51cbf72
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -26,4 +26,4 @@ ClassTypes:
 Assets:
 - Assets/Werewolf/StatusIndicators/Prefabs/Status/Status Gradient.prefab
 Dependencies:
-- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/status/statusgradient_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/status/statusgradient_mat

@@ -8,6 +8,7 @@ public class SceneConfig
     public static string Loading = "Loading";
     public static string Init = "Init";
     public static string Fight = "Fight";
+	public static string InitAgain = "InitAgain";
     #endregion 场景名称
 
     #region Fight场景中约定路径

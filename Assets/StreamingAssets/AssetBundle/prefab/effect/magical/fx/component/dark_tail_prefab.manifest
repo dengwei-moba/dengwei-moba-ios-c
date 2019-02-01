@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 481258722
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 18b217058833a4432aeeb5ab9d4a7380
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 508437901a680e5af1313a8c7f825e63
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 96
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: d9c26fd6639e21a438e96471ee756f52, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 191fe338767274940861ec3dcc17eb7c, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Effect/Magical/FX/Component/Dark_Tail.prefab
+Dependencies:
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/materials/darkstomp_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/materials/darksmoke_mat

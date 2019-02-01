@@ -16,6 +16,13 @@ namespace TrueSync {
          */
 		public int ownerIndex = -1;
 
+		public int OwnerID = 0;
+		public GameCamp OwnerCamp = GameCamp.MONSTER;
+		public ActerType mActerType = ActerType.PLAYER;
+		public bool IsPlayer { get { return OwnerID > 0; } }
+		public bool IsMonster { get { return OwnerID < 0; } }
+
+
         /**
          *  @brief Basic info about the owner of this behaviour.
          *  DV 该行为的拥有者玩家

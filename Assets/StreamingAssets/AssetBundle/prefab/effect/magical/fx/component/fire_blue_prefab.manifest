@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 305126589
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 69b1788d26943881d8d166380b4218c1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7055fdf5592d4a180e3388d8ea895d86
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Effect/Magical/FX/Component/Fire_Blue.prefab
+Dependencies:
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/materials/flak1_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/materials/fire1_mat

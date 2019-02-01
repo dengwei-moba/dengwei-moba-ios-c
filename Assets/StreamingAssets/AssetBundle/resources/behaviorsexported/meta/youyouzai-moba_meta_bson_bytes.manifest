@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1245959384
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 496c793024c718da8a8c8456a5748587
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/BehaviorsExported/meta/youyouzai-moba.meta.bson.bytes
+Dependencies: []

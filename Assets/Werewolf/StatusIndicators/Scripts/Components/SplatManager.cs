@@ -202,5 +202,12 @@ namespace Werewolf.StatusIndicators.Components {
 				CurrentRangeIndicator = null;
 			}
 		}
+
+        public void CancelAll()
+        {
+            CancelSpellIndicator();
+            CancelRangeIndicator();
+            CancelStatusIndicator();
+        }
 	}
 }

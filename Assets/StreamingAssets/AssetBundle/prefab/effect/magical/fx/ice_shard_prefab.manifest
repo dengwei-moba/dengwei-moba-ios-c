@@ -1,0 +1,54 @@
+ManifestFileVersion: 0
+CRC: 3325201462
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 57424c4bda5965a55234f86cbf852db6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c3a488a49390360607ccf5f0d4c1f1fb
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4b69c254cd7aac34cae94e53410c6ba9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: aea3c196ff927664fac017e6ff812a54, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d9c26fd6639e21a438e96471ee756f52, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 49ffe117472f28a42ae488a517f0f3ab, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6abd900d106201b4fb1e780b626ff25b, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Effect/Magical/FX/Ice_Shard.prefab
+Dependencies:
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/fx/component/ice_explosion_prefab
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/materials/smoke1_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/fx/component/ice_shardexplosion_prefab
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/materials/ice_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/materials/no
+  name_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/materials/smoke_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/materials/flak2_mat

@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3637998615
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c1cf74d87024dc36215e558d6e3510f6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Textrue/bloodstrip_bg.png
+Dependencies: []

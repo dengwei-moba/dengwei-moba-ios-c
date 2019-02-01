@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 389073772
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 735a936f4b715afd9fa240947cac4731
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Effect/Magical/Sources/Textures/stomp_hight.png
+Dependencies: []

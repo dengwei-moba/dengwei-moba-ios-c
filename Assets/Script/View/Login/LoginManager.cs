@@ -10,6 +10,7 @@ public class LoginManager : ViewBase
     private InputField mIpInput;
     private InputField mPortInput;
     private Button mLoginBtn;
+	private Button mRandomAccBtn;
 
     public override void Awake()
     {
@@ -20,6 +21,9 @@ public class LoginManager : ViewBase
         mPortInput = canvasTrans.Find("PortInput").GetComponent<InputField>();
         mLoginBtn = canvasTrans.Find("LoginBtn").GetComponent<Button>();
         mLoginBtn.onClick.AddListener(OnLogin);
+		mRandomAccBtn = canvasTrans.Find("RandomAccBtn").GetComponent<Button>();
+		mRandomAccBtn.onClick.AddListener(OnRandomAcc);
+		OnRandomAcc();
     }
     
     void OnLogin()
@@ -45,4 +49,10 @@ public class LoginManager : ViewBase
 
         }
     }
+
+	void OnRandomAcc()
+	{
+		System.Random random = new System.Random(); 
+		mAccountInput.text = "Random" + random.Next();
+	}
 }

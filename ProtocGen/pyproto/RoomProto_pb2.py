@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='RoomProto.proto',
   package='Google.Protobuf',
   syntax='proto3',
-  serialized_pb=_b('\n\x0fRoomProto.proto\x12\x0fGoogle.Protobuf\"9\n\x10PB_C2SLoginHello\x12\x13\n\x0b\x66ightroomid\x18\x01 \x01(\r\x12\x10\n\x08hellokey\x18\x02 \x01(\t\"=\n\rPB_PlayerInfo\x12\x0b\n\x03pid\x18\x01 \x01(\x04\x12\x11\n\tplayeridx\x18\x02 \x01(\x05\x12\x0c\n\x04name\x18\x03 \x01(\t\"\x17\n\x15PB_C2SFightLoadingEnd\"\x12\n\x10PB_S2CFightStart\"\x11\n\x0fPB_C2SFightSOut\"\x1f\n\x0fPB_LoadingAgain\x12\x0c\n\x04type\x18\x01 \x01(\r\"4\n\x0fPB_C2SFightSEnd\x12\r\n\x05iswin\x18\x01 \x01(\x08\x12\x12\n\nresultflag\x18\x02 \x01(\r\"\x1e\n\x0fPB_S2CFightSEnd\x12\x0b\n\x03\x65xp\x18\x01 \x01(\r\"\x8c\x01\n\x0ePB_ClientInput\x12-\n\tInputType\x18\x01 \x01(\x0e\x32\x1a.Google.Protobuf.InputType\x12\x0f\n\x07\x41ngle_X\x18\x02 \x01(\x05\x12\x0f\n\x07\x41ngle_Y\x18\x03 \x01(\x05\x12\x0b\n\x03Key\x18\x04 \x01(\x05\x12\r\n\x05Pos_X\x18\x05 \x01(\x05\x12\r\n\x05Pos_Y\x18\x06 \x01(\x05\"D\n\x11PB_C2SClientInput\x12/\n\x06inputs\x18\x01 \x03(\x0b\x32\x1f.Google.Protobuf.PB_ClientInput\"O\n\x0ePB_PlayerFrame\x12\r\n\x05index\x18\x01 \x01(\r\x12.\n\x05input\x18\x02 \x01(\x0b\x32\x1f.Google.Protobuf.PB_ClientInput\"T\n\x0cPB_FrameInfo\x12\x13\n\x0b\x66rame_index\x18\x01 \x01(\r\x12/\n\x06inputs\x18\x02 \x03(\x0b\x32\x1f.Google.Protobuf.PB_PlayerFrame*\x9d\x01\n\x10LoadingAgainType\x12\x19\n\x15LoadingAgainType_NONE\x10\x00\x12\x1b\n\x17\x43\x32S_LOADING_AGAIN_START\x10\x01\x12\x1b\n\x17S2C_LOADING_AGAIN_START\x10\x02\x12\x19\n\x15\x43\x32S_LOADING_AGAIN_END\x10\x03\x12\x19\n\x15S2C_LOADING_AGAIN_END\x10\x04*\x84\x02\n\tInputType\x12\x12\n\x0eInputType_NONE\x10\x00\x12\x18\n\x14InputType_MOVE_START\x10\x01\x12\x18\n\x14InputType_MOVE_ANGLE\x10\x02\x12\x16\n\x12InputType_MOVE_END\x10\x03\x12\x16\n\x12InputType_KEY_DOWN\x10\x04\x12\x14\n\x10InputType_KEY_UP\x10\x05\x12\x1c\n\x18InputType_KEY_LONG_START\x10\x06\x12\x1a\n\x16InputType_KEY_LONG_END\x10\x07\x12\x17\n\x13InputType_KEY_ANGLE\x10\x08\x12\x16\n\x12InputType_CLICK_XY\x10\tb\x06proto3')
+  serialized_pb=_b('\n\x0fRoomProto.proto\x12\x0fGoogle.Protobuf\"9\n\x10PB_C2SLoginHello\x12\x13\n\x0b\x66ightroomid\x18\x01 \x01(\r\x12\x10\n\x08hellokey\x18\x02 \x01(\t\"=\n\rPB_PlayerInfo\x12\x0b\n\x03pid\x18\x01 \x01(\x04\x12\x11\n\tplayeridx\x18\x02 \x01(\x05\x12\x0c\n\x04name\x18\x03 \x01(\t\"\x17\n\x15PB_C2SFightLoadingEnd\"\x12\n\x10PB_S2CFightStart\"\x11\n\x0fPB_C2SFightSOut\"\x1f\n\x0fPB_LoadingAgain\x12\x0c\n\x04type\x18\x01 \x01(\r\"4\n\x0fPB_C2SFightSEnd\x12\r\n\x05iswin\x18\x01 \x01(\x08\x12\x12\n\nresultflag\x18\x02 \x01(\r\"\x1e\n\x0fPB_S2CFightSEnd\x12\x0b\n\x03\x65xp\x18\x01 \x01(\r\"\x9e\x01\n\x0ePB_ClientInput\x12-\n\tInputType\x18\x01 \x01(\x0e\x32\x1a.Google.Protobuf.InputType\x12\x0f\n\x07\x41ngle_X\x18\x02 \x01(\x05\x12\x0f\n\x07\x41ngle_Y\x18\x03 \x01(\x05\x12\x0b\n\x03Key\x18\x04 \x01(\x05\x12\r\n\x05Pos_X\x18\x05 \x01(\x05\x12\r\n\x05Pos_Y\x18\x06 \x01(\x05\x12\x10\n\x08TargetID\x18\x07 \x01(\x05\"D\n\x11PB_C2SClientInput\x12/\n\x06inputs\x18\x01 \x03(\x0b\x32\x1f.Google.Protobuf.PB_ClientInput\"O\n\x0ePB_PlayerFrame\x12\r\n\x05index\x18\x01 \x01(\x05\x12.\n\x05input\x18\x02 \x01(\x0b\x32\x1f.Google.Protobuf.PB_ClientInput\"T\n\x0cPB_FrameInfo\x12\x13\n\x0b\x66rame_index\x18\x01 \x01(\r\x12/\n\x06inputs\x18\x02 \x03(\x0b\x32\x1f.Google.Protobuf.PB_PlayerFrame*\x9d\x01\n\x10LoadingAgainType\x12\x19\n\x15LoadingAgainType_NONE\x10\x00\x12\x1b\n\x17\x43\x32S_LOADING_AGAIN_START\x10\x01\x12\x1b\n\x17S2C_LOADING_AGAIN_START\x10\x02\x12\x19\n\x15\x43\x32S_LOADING_AGAIN_END\x10\x03\x12\x19\n\x15S2C_LOADING_AGAIN_END\x10\x04*\x84\x02\n\tInputType\x12\x12\n\x0eInputType_NONE\x10\x00\x12\x18\n\x14InputType_MOVE_START\x10\x01\x12\x18\n\x14InputType_MOVE_ANGLE\x10\x02\x12\x16\n\x12InputType_MOVE_END\x10\x03\x12\x16\n\x12InputType_KEY_DOWN\x10\x04\x12\x14\n\x10InputType_KEY_UP\x10\x05\x12\x1c\n\x18InputType_KEY_LONG_START\x10\x06\x12\x1a\n\x16InputType_KEY_LONG_END\x10\x07\x12\x17\n\x13InputType_KEY_ANGLE\x10\x08\x12\x16\n\x12InputType_CLICK_XY\x10\tb\x06proto3')
 )
 
 _LOADINGAGAINTYPE = _descriptor.EnumDescriptor(
@@ -52,8 +52,8 @@ _LOADINGAGAINTYPE = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   options=None,
-  serialized_start=722,
-  serialized_end=879,
+  serialized_start=740,
+  serialized_end=897,
 )
 _sym_db.RegisterEnumDescriptor(_LOADINGAGAINTYPE)
 
@@ -107,8 +107,8 @@ _INPUTTYPE = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   options=None,
-  serialized_start=882,
-  serialized_end=1142,
+  serialized_start=900,
+  serialized_end=1160,
 )
 _sym_db.RegisterEnumDescriptor(_INPUTTYPE)
 
@@ -435,6 +435,13 @@ _PB_CLIENTINPUT = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='TargetID', full_name='Google.Protobuf.PB_ClientInput.TargetID', index=6,
+      number=7, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None, file=DESCRIPTOR),
   ],
   extensions=[
   ],
@@ -448,7 +455,7 @@ _PB_CLIENTINPUT = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=342,
-  serialized_end=482,
+  serialized_end=500,
 )
 
 
@@ -478,8 +485,8 @@ _PB_C2SCLIENTINPUT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=484,
-  serialized_end=552,
+  serialized_start=502,
+  serialized_end=570,
 )
 
 
@@ -492,7 +499,7 @@ _PB_PLAYERFRAME = _descriptor.Descriptor(
   fields=[
     _descriptor.FieldDescriptor(
       name='index', full_name='Google.Protobuf.PB_PlayerFrame.index', index=0,
-      number=1, type=13, cpp_type=3, label=1,
+      number=1, type=5, cpp_type=1, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
@@ -516,8 +523,8 @@ _PB_PLAYERFRAME = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=554,
-  serialized_end=633,
+  serialized_start=572,
+  serialized_end=651,
 )
 
 
@@ -554,8 +561,8 @@ _PB_FRAMEINFO = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=635,
-  serialized_end=719,
+  serialized_start=653,
+  serialized_end=737,
 )
 
 _PB_CLIENTINPUT.fields_by_name['InputType'].enum_type = _INPUTTYPE

@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1659761029
+CRC: 2338126021
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 178a7bb580816b30961a9daca1c98f04
+    Hash: 072277ed7f8a1e1e0f5e1f408e22d58a
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 6701b1cd9ecebb045bc33ea6660ef52d
+    Hash: f8ce1f44d9e6f5ea8710bf369b43e67e
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -26,7 +26,7 @@ ClassTypes:
 Assets:
 - Assets/Werewolf/StatusIndicators/Prefabs/Point/Point Basic.prefab
 Dependencies:
-- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/point/targetbasic/pointbase_mat
-- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/point/targetbasic/pointcharge_mat
-- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/point/targetbasic/pointcrosshair_mat
-- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/point/targetbasic/pointdeco_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/point/targetbasic/pointbase_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/point/targetbasic/pointdeco_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/point/targetbasic/pointcharge_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/point/targetbasic/pointcrosshair_mat

@@ -36,8 +36,8 @@ public class UdpReciveManager: ScriptBase
         for (int i = 0; i < list.Count; i++)
         {
             PB_PlayerFrame mPlayerFrame = list[i];
-            uint userid = mPlayerFrame.Index;
-            Actor actor = TrueSyncManager.Instance.GetActor(userid);
+            int userid = mPlayerFrame.Index;
+            Actor actor = TrueSyncManager.Instance.GetPlayerActor(userid);
             if (actor != null)
             {
                 actor.PlayerInputHandle(mPlayerFrame.Input);

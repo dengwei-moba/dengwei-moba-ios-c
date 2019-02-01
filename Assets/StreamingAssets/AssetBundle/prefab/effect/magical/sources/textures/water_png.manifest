@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 400903325
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c47dcf8c2b549b5e9bf936f44ddf13f3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Effect/Magical/Sources/Textures/water.png
+Dependencies: []

@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 143119573
+CRC: 3293324607
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: b0d114aac99c0221043c04135ec8d548
+    Hash: 1ebd7b7ae1e1d5db7a4d5f4f9732eb13
   TypeTreeHash:
     serializedVersion: 2
-    Hash: d1ae6e26fb0b4d11fccd18da598542fa
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
 HashAppended: 0
 ClassTypes:
 - Class: 21
@@ -18,4 +18,4 @@ ClassTypes:
 Assets:
 - Assets/Prefab/Scene/5V5/LOM/Res/Map/DivineArena/Materials/UpoSpace_shine.mat
 Dependencies:
-- G:/sj/youyouzai-moba-ios/Assets/StreamingAssets/AssetBundle/prefab/scene/5v5/lom/res/map/divinearena/textures/upospace_shine_png
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/scene/5v5/lom/res/map/divinearena/textures/upospace_shine_png

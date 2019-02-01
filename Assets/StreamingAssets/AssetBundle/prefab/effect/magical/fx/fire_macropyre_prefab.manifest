@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 2281650668
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 22dda70bcba1b202a7ac13fa70b534f7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 93f804acb8dffe7d0784cc2c95f3e64c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6f9f0b82b6ced6f4b8a9175bf4a451aa, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4b69c254cd7aac34cae94e53410c6ba9, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Effect/Magical/FX/Fire_Macropyre.prefab
+Dependencies:
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/fx/component/fire_burn_prefab

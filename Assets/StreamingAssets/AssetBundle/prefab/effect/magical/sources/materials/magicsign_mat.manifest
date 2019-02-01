@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3296894365
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6a0e59df94b4832d3d72bd3b7d2c31a9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Effect/Magical/Sources/Materials/MagicSign.mat
+Dependencies:
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/prefab/effect/magical/sources/textures/magical1_png

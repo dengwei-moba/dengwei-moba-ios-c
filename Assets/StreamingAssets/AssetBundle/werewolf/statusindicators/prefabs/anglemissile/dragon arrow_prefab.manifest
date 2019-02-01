@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1525285660
+CRC: 2951085771
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1283f8bf24224ec32f38bb9db7aca528
+    Hash: 6887baf2cf3ae6672394d1ac9418afcc
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 5fbd5e32104575d050494759e25e0b1e
+    Hash: 31c654165fbc3bc4ef0aa350e7ea9f53
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -26,4 +26,4 @@ ClassTypes:
 Assets:
 - Assets/Werewolf/StatusIndicators/Prefabs/AngleMissile/Dragon Arrow.prefab
 Dependencies:
-- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/anglemissile/magiccrossbow/crossbow_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/anglemissile/magiccrossbow/crossbow_mat

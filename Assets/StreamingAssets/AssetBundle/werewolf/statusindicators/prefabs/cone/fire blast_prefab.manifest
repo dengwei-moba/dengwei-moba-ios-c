@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1751874167
+CRC: 2473773980
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0dc73e8b17d8c97c1d472ff67c982561
+    Hash: 80d7f24357db86ca14a0ad48bea955ab
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 69a5306be620750ae3ac31c0f1da28c1
+    Hash: 47608052ed85de43f03fabb86d36053d
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -28,8 +28,8 @@ ClassTypes:
 Assets:
 - Assets/Werewolf/StatusIndicators/Prefabs/Cone/Fire Blast.prefab
 Dependencies:
-- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/cone/fireblast/conebase_mat
-- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/cone/fireblast/conecenter_mat
-- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/cone/fireblast/conedeco_mat
-- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/cone/fireblast/conelborder_mat
-- G:/sj/youyouzai-moba/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/cone/fireblast/conerborder_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/cone/fireblast/conedeco_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/cone/fireblast/conebase_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/cone/fireblast/conecenter_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/cone/fireblast/conerborder_mat
+- /Users/dengwei/Documents/GitHub/dengwei-moba-ios-c/Assets/StreamingAssets/AssetBundle/werewolf/statusindicators/prefabs/materials/spellindicators/cone/fireblast/conelborder_mat
