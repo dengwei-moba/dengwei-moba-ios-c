@@ -96,7 +96,6 @@ public class GameState_Move_Normal : ActorState
 
     public override void Exit(ActorState NextGameState)
     {
-        mActor.IsMove = false;
         mActor = null;
     }
 

@@ -136,6 +136,7 @@ public class PlayerActor : Actor
 
     public override void PlayerInputHandle_MoveEnd()
     {
+		IsMove = false;
         this.TransState(ActorStateType.Idle);
     }
 

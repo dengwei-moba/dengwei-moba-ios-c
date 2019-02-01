@@ -129,6 +129,12 @@ public abstract class Actor : TrueSyncBehaviour
 
 	public abstract void AddHp(int hp, int iOwnerID);
 
+	public void TryBackMove(){
+		if(IsMove)
+			TransState(ActorStateType.Move);
+		else
+			TransState(ActorStateType.Idle);
+	}
     public void TransState(ActorStateType tStateType, params object[] param)
     {
         if (CurState == null)

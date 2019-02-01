@@ -47,7 +47,7 @@ public class GameState_Skill_1_houyi : ActorState
         if (mActor != null && mActor.ActorObj != null)
         {
             mActor.Skill_1();
-            mActor.TransState(ActorStateType.Idle);
+			mActor.TryBackMove();
         }
     }
 }
@@ -105,7 +105,7 @@ public class GameState_Skill_2_houyi : ActorState
 		{
 			mActor.Skill_2(inputAngleX, inputAngleY, PlayAnimationFrame);
 			if (PlayAnimationFrame<=0)
-				mActor.TransState(ActorStateType.Idle);
+				mActor.TryBackMove();
 		}
 	}
 }
@@ -166,7 +166,7 @@ public class GameState_Skill_3_houyi : ActorState
 		if (mActor != null && mActor.ActorObj != null && PlayAnimationFrame<=0)
 		{
 			mActor.Skill_3(inputAngleX, inputAngleY);
-			mActor.TransState(ActorStateType.Idle);
+			mActor.TryBackMove();
 		}
 	}
 }
@@ -225,12 +225,12 @@ public class GameState_Skill_4_houyi : ActorState
 			}
 
 			if (mTargetActor.IsDeath)
-				mActor.TransState(ActorStateType.Idle);
+				mActor.TryBackMove();
 			else
 				mActor.Skill_4(mTargetActor);
 		}
 		else {
-			mActor.TransState(ActorStateType.Idle);
+			mActor.TryBackMove();
 		}
 	}
 }
